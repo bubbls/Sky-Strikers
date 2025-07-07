@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Arena_Glass_01
+  m_Shader: {fileID: 4800000, guid: d62593646c9b51f4d8b69c6051fbfec0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 32462fb273ce8904e8edfc655f0b1efe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Skybox:
+        m_Texture: {fileID: 8900000, guid: 82f6032c55a82474190a1d2953eaa1fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _CullMode: 2
+      _Float1: 1
+      _MatCapIntensity: 1.2
+      _MatCapMip: 0
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _RimLightStrength: 0.861
+      _SkyboxMip: 0
+      _ZWriteMode: 1
+    m_Colors:
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _Fresnel: {r: 0, g: 1, b: 5, a: 0}
+      _FresnelColor: {r: 0.6179245, g: 0.89026904, b: 1, a: 0}
+      _MainColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+      _MaskTexColor: {r: 0.8352941, g: 0.89529103, b: 1, a: 0.08627451}
+      _MaskTexTiling: {r: 16.97, g: 7, b: 0, a: 0}
+      _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+      _SkyboxColor: {r: 0.68396217, g: 0.9677358, b: 1, a: 0}
+      _SkyboxOffset: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_AirWall
+  m_Shader: {fileID: 4800000, guid: 4f6260af4d2a8204abb0e87abcc6e30e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _DepthOn
+  - _IdleOn
+  - _KEYWORD
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: bd40e3e89db7e584d8211748c32838cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PlayerWallTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BallHighlight: 2
+      _BallOffset: 0
+      _BallStrength: 0.2
+      _BoundaryWidth: 0.25
+      _CullMode: 2
+      _Depth: 1
+      _DepthOffset: 0.331
+      _DetectionRegion: 3.5
+      _Float1: 1
+      _Float2: 1
+      _Float3: 1
+      _Float4: 1
+      _Float5: 1
+      _Idle: 1
+      _NoiseSpeed: 3
+      _NoiseTilling: 2
+      _PlayerHighlight: 1
+      _PlayerOffset: 0
+      _PlayerStrength: 0.4
+      _PlayerWallOn: 0
+      _PlayerWallRadius: 0
+      _PlayerWallTexSpace: 0
+      _RimLightOffset: 0.2
+      _RimLightStrength: 0.2
+      _SimulationTime: 0
+      _Tilling: 20
+      _TimeSimulation: 0
+      _Visibility: 1
+      _WaveRegion: 3.5
+    m_Colors:
+      _BallPosition: {r: 0, g: 0, b: 0, a: 0}
+      _BallVelocity: {r: 0, g: 0, b: 1, a: 0}
+      _BaseColor: {r: 0.25849038, g: 1, b: 0.45516616, a: 0.02745098}
+      _HitPosition: {r: 7, g: 2.6099997, b: 31.46416, a: 0}
+      _NoiseColor: {r: 0.462745, g: 0.9686275, b: 0.7254902, a: 0.18431373}
+      _PlayerWallColor: {r: 1, g: 0, b: 0, a: 1}
+      _PlayerWallTiling: {r: 1, g: 1, b: 1, a: 1}
+      _RimLightColor: {r: 0.08020854, g: 1, b: 0, a: 1}
+      _Tilling: {r: 10, g: 10, b: 0, a: 0}
+      _WaveColor: {r: 1.0733298, g: 2, b: 0.28272247, a: 1}
+  m_BuildTextureStacks: []

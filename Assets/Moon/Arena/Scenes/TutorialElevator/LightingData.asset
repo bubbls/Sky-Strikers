@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightingDataAsset:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LightingData
+  m_Scene: {fileID: 102900000, guid: f453e411c837b4affac6cfdf0953f086, type: 3}
+  m_Lightmaps:
+  - serializedVersion: 2
+    m_Lightmap: {fileID: 2800000, guid: ae0ada67d22566046870bb68aed9a63c, type: 2}
+    m_DirLightmap: {fileID: 0}
+    m_ShadowMask: {fileID: 0}
+  m_AOTextures: []
+  m_LightmapsCacheFiles: []
+  m_LightProbes: {fileID: 25800000, guid: 04e68613e1ebb3e42aeb6b74d5af4e01, type: 2}
+  m_LightmapsMode: 0
+  m_BakedAmbientProbeInLinear:
+    sh[ 0]: 0.20599544
+    sh[ 1]: 0.05334617
+    sh[ 2]: 0.002785623
+    sh[ 3]: 0.006676138
+    sh[ 4]: 0.009413852
+    sh[ 5]: -0.0013444507
+    sh[ 6]: 0.004316652
+    sh[ 7]: -0.004286746
+    sh[ 8]: 0.019510727
+    sh[ 9]: 0.6062838
+    sh[10]: 0.004300616
+    sh[11]: -0.00112468
+    sh[12]: 0.012551644
+    sh[13]: 0.014628074
+    sh[14]: -0.0027828296
+    sh[15]: 0.0075052157
+    sh[16]: -0.008654027
+    sh[17]: 0.025828967
+    sh[18]: 1.818267
+    sh[19]: -0.034298122
+    sh[20]: -0.0010070205
+    sh[21]: 0.011444349
+    sh[22]: 0.011816624
+    sh[23]: -0.0013830945
+    sh[24]: 0.005576156
+    sh[25]: -0.009726122
+    sh[26]: 0.017826991
+  m_LightmappedRendererData:
+  - uvMesh: {fileID: 4300000, guid: 206566935e35a4b42829b0c255669b3a, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.8127035, y: 0.8127035, z: -0.0010350319, w: -0.0010982545}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+    explicitProbeSetHash:
+      serializedVersion: 2
+      Hash: 00000000000000000000000000000000
+  - uvMesh: {fileID: 4300000, guid: c9a6c79a29ca7974ab53449d638fe90d, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.39229554, y: 0.39229554, z: 0.5209613, w: -0.1274562}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+    explicitProbeSetHash:
+      serializedVersion: 2
+      Hash: 00000000000000000000000000000000
+  m_LightmappedRendererDataIDs:
+  - targetObject: 45
+    targetPrefab: 0
+  - targetObject: 46
+    targetPrefab: 0
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_Probesets: []
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights:
+  - targetObject: 64
+    targetPrefab: 0
+  m_LightBakingOutputs:
+  - serializedVersion: 2
+    probeOcclusionLightIndex: 0
+    occlusionMaskChannel: -1
+    lightmapBakeMode:
+      lightmapBakeType: 2
+      mixedLightingMode: 1
+    isBaked: 1
+  m_BakedReflectionProbeCubemapCacheFiles: []
+  m_BakedReflectionProbeCubemaps:
+  - {fileID: 8900000, guid: dc2bc509e12ee10428b62aad40a5accf, type: 3}
+  m_BakedReflectionProbes: []
+  m_EnlightenData: 556e69747946530000000008352e782e7800323032322e332e3132663100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_EnlightenDataVersion: 112

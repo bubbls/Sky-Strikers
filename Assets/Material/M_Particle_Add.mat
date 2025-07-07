@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Particle_Add
+  m_Shader: {fileID: 4800000, guid: d9adc1317600191408906f355c34eb22, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _KEYWORD0_VFX_KLAUS
+  - _KEYWORD1_ADD
+  - _KEYWORD2_SOLIDGLOW
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 57f39dd1e369dfb49a1505260df555ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Emission: 2
+      _HeadOffset: 0.7
+      _Intensity: 1
+      _Keyword0: 1
+      _Keyword1: 0
+      _Keyword2: 0
+      _NoiseOffset: 0
+      _RimEmission: 1.5
+      _RimLightOffset: 0.2
+      _RimLightStrength: 0.2
+      _Speed: 0.1
+      _Tilling: 1
+    m_Colors:
+      _BaseColor: {r: 0.7971698, g: 1, b: 0.9071794, a: 1}
+      _Forward: {r: 0, g: 1, b: 0, a: 0}
+      _Offset: {r: 0, g: 0, b: 0, a: 0}
+      _TillingAndSpeed: {r: 4, g: 0.5, b: 0, a: 0.5}
+      _TintColor: {r: 1, g: 1, b: 1, a: 1}
+      _Up: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

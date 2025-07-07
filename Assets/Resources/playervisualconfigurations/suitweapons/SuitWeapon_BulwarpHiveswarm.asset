@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1579970ccd9c4b81c56695e15bffe716, type: 3}
+  m_Name: SuitWeapon_BulwarpHiveswarm
+  m_EditorClassIdentifier:
+  TeamMaterials:
+  - Default: {fileID: 2100000, guid: bc77ff6d6905e194ebe2f3debc165539, type: 2}
+    Emission: {fileID: 2100000, guid: 3ae2c5387b244434b9acaff9d0e0fc5b, type: 2}
+    Glass: {fileID: 2100000, guid: 9673163c5b7bef545bf5ae1c1e609be4, type: 2}
+    Spawning: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 0}
+  - Default: {fileID: 2100000, guid: bc77ff6d6905e194ebe2f3debc165539, type: 2}
+    Emission: {fileID: 2100000, guid: 3ae2c5387b244434b9acaff9d0e0fc5b, type: 2}
+    Glass: {fileID: 2100000, guid: 9673163c5b7bef545bf5ae1c1e609be4, type: 2}
+    Spawning: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 0}
+  - Default: {fileID: 2100000, guid: 877c57b6ec5c7314cad48130331b1c28, type: 2}
+    Emission: {fileID: 2100000, guid: 5535cea23a22eff4bb2c564f515eda96, type: 2}
+    Glass: {fileID: 2100000, guid: 47b380bf8b8c1894b803c935f6f0e361, type: 2}
+    Spawning: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 0}
+  BallHitFx: {fileID: 114991267383974499, guid: 0998b4c699484fd4e85db81e7ab9f965, type: 2}
+  GoalScoredFx:
+  - {fileID: 1706339230376710, guid: 3e350837132f4c149ab9deffd50beeba, type: 2}
+  - {fileID: 1706339230376710, guid: 3e350837132f4c149ab9deffd50beeba, type: 2}
+  - {fileID: 1360092270332428, guid: f01a1e22f8ce21646bd2e00724f859e6, type: 2}
+  SfxChangeVisual: {fileID: 11400000, guid: d37f03ad9ea4cbf48b4266dca6a0042c, type: 2}
+  SfxEquip: {fileID: 11400000, guid: 2c57076ac68d7a24b9193d1ca8aa2265, type: 2}
+  SfxHitHard: {fileID: 11400000, guid: 50b59c3232815a145bdc6efcc10c5006, type: 2}
+  SfxHitSoft: {fileID: 11400000, guid: 2ac6f88273dfcf24db95babb0afc6b1e, type: 2}
+  SfxGoal: {fileID: 11400000, guid: 0afbd73fe1a2d1a4cafb212708ab01c4, type: 2}
+  SfxNoAmmo: {fileID: 11400000, guid: c25b94dd90d1f104ba46adee0170befb, type: 2}
+  SfxLastAmmoUsed: {fileID: 11400000, guid: db988412b6113bd47bab11f5dc613334, type: 2}
+  ShieldVisual: {fileID: 114795202798841026, guid: c037d6582c66c8d448a405d32b2c1678, type: 2}
+  PortalVisual: {fileID: 114715255189449495, guid: 1a1cbdfd65ee66942803994754c442a6, type: 2}
+  SfxPlayerTeleport: {fileID: 11400000, guid: 793e803838b6b844bac1fc583ed861a9, type: 2}
+  SfxBallTeleport: {fileID: 11400000, guid: ef2f600262d8c184d940d88cd3054a4e, type: 2}
+  SfxGhostPlacementPerfect: {fileID: 11400000, guid: 618fbe5c0e986214f801c650447d4081, type: 2}
+  SfxGhostPlacementAcceptable: {fileID: 11400000, guid: 044b35d206f06344ea8f005d8f7afb60, type: 2}
+  SfxGhostPlacementUnacceptable: {fileID: 11400000, guid: 0032267ef010f83499aeb83a94c2d3b4, type: 2}
+  SfxPortalActivated: {fileID: 11400000, guid: a783c3c067a161448bd3b9a73d4a7c59, type: 2}
+  SfxShieldPlaced: {fileID: 11400000, guid: 3a9ea43af8939194f811a0aee482f169, type: 2}
+  SfxShieldNoCharge: {fileID: 11400000, guid: ad09fd204953c66478b4c22363e8faff, type: 2}
+  SfxShieldCharged: {fileID: 11400000, guid: 4182cd0666a9378458c403b4f733aafa, type: 2}
+  MuzzleFlashFx:
+  - {fileID: 1383854547951429, guid: 7fa13bbd351241b46b27cb2e1f70c9ab, type: 2}
+  - {fileID: 1383854547951429, guid: 7fa13bbd351241b46b27cb2e1f70c9ab, type: 2}
+  - {fileID: 1620877114487787, guid: 478d2ced15824964f87766d531938a79, type: 2}
+  ShieldVisualMaterials:
+  - Default: {fileID: 2100000, guid: bc77ff6d6905e194ebe2f3debc165539, type: 2}
+    WaitingForPortal: {fileID: 2100000, guid: 09ca223ea4d40444abc8a7215abcb89d, type: 2}
+    SpawningMaterial: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    HologramMaterial: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+  - Default: {fileID: 2100000, guid: bc77ff6d6905e194ebe2f3debc165539, type: 2}
+    WaitingForPortal: {fileID: 2100000, guid: 09ca223ea4d40444abc8a7215abcb89d, type: 2}
+    SpawningMaterial: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    HologramMaterial: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+  - Default: {fileID: 2100000, guid: 877c57b6ec5c7314cad48130331b1c28, type: 2}
+    WaitingForPortal: {fileID: 2100000, guid: 5206a80c922533e409521aaaa6bc6ebe, type: 2}
+    SpawningMaterial: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    HologramMaterial: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}

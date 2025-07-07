@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_ShuttleWindow
+  m_Shader: {fileID: 4800000, guid: 33f72c1e08866cd4cb5c4c9041fa35d8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Noise:
+        m_Texture: {fileID: 2800000, guid: bc0bc75c0f5d6664db680594185e9213, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ReflectionProbe:
+        m_Texture: {fileID: 8900000, guid: 49f777f3c51c85448bf7d6f722af0833, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Alpha: 1
+      _Alpha1: 0.5
+      _AlphaCutoff: 0.5
+      _Float2: 20.44
+      _FresnelPow: 2
+      _InteriorDepth: 0
+      _InteriorDepthStretch: 1
+      _InteriorMip: 0.8
+      _InteriorRotateX: -0.5
+      _InteriorRotateY: -0.76
+      _Launch: 0
+      _Lunch: 0
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReflectionProbeMip: 2.5
+      _TessEdgeLength: 16
+      _TessMax: 25
+      _TessMaxDisp: 25
+      _TessMin: 10
+      _TessPhongStrength: 0.5
+      _TessValue: 16
+    m_Colors:
+      _Color0: {r: 0.04312031, g: 0.12417977, b: 0.16037735, a: 0}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _GlassColor: {r: 0, g: 1, b: 1, a: 0.53333336}
+      _InteriorColor: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0}
+      _InteriorTilingOffset: {r: 1, g: 1, b: 0, a: -0.15}
+      _NoiseColor: {r: 0.11690093, g: 0.5039381, b: 0.6698113, a: 0}
+      _NoiseTilingSpeed: {r: 1, g: 0.1, b: 0, a: 1}
+      _Offset: {r: 0, g: 0, b: 0, a: 0}
+      _Offset1: {r: 0, g: 0, b: 0, a: 0}
+      _Offset2: {r: 0, g: 3, b: 0, a: 0}
+      _Offset3: {r: 0, g: 0, b: 0, a: 0}
+      _SkyColor: {r: 0.07787452, g: 0.4716981, b: 0.2951564, a: 0}
+      _SkyColor2: {r: 0.07787461, g: 0.4716981, b: 0.29515648, a: 0}
+      _SkyNoiseTilingOffset: {r: 1, g: -0, b: 0, a: 0}
+      _SkyNoiseTilingSpeed: {r: 1, g: 0.1, b: 0, a: 1}
+      _TensileRange: {r: 0, g: 3, b: 0, a: 0}
+      _Tiling: {r: 2, g: 2, b: 2, a: 0}
+      _Vector2: {r: 1, g: 0.75, b: 1, a: 0}
+      _Vector3: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

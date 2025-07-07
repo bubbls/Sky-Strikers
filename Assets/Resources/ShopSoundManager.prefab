@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1340812354058517
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4556380510467892}
+  - component: {fileID: 114156369306955857}
+  m_Layer: 0
+  m_Name: ShopSoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4556380510467892
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340812354058517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114156369306955857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340812354058517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 764da5d26374d7826d11037e8e01441b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _buttonPressSoundInfo: {fileID: 11400000, guid: 05ed7c86a8bb92a4583f1ebea46e145a, type: 2}
+  _buttonDisabledSoundInfo: {fileID: 11400000, guid: 42bf96fc4bcc77d43acad522af9634e8, type: 2}
+  _buttonPopupSoundInfo: {fileID: 11400000, guid: b360f509ab7862e438612f0e9c217239, type: 2}
+  _chargingSoundInfo: {fileID: 11400000, guid: 5ad449477db36ba47b2e8a1e86620f0e, type: 2}
+  _openCoverSoundInfo: {fileID: 11400000, guid: 24a7a11730c603544acbbe01a0b578c7, type: 2}
+  _closeCoverSoundInfo: {fileID: 11400000, guid: b664be1f8b449c741866436c51b531b0, type: 2}
+  _gearRotatingSoundInfo: {fileID: 11400000, guid: 2591f5cffbcec70468eb064f16127247, type: 2}
+  _screenAlertSoundInfo: {fileID: 11400000, guid: 2a7c2500995546d429691303b781f15b, type: 2}
+  _screenLoadingSoundInfo: {fileID: 11400000, guid: 690b9f53cd3e7814dbac5ac63699cf94, type: 2}
+  _screenWarningSoundInfo: {fileID: 11400000, guid: 1f52c53cb24b1044e8ffb3d46aa2192a, type: 2}
+  _walletGetMoneySoundInfo: {fileID: 11400000, guid: d728279a77c2a6343bb111087f66444e, type: 2}
+  _walletIceShakeSoundInfo: {fileID: 11400000, guid: 526ae96bf4e551f4a926fd27909ce114, type: 2}
+  _walletLoseMoneySoundInfo: {fileID: 11400000, guid: f4a3350a087c25a44acf43b5d782e696, type: 2}
+  _channelArenaDoorOpenSoundInfo: {fileID: 11400000, guid: 792767e44baf57a49a603db4c7cc6612, type: 2}
+  _channelShopDoorOpenSoundInfo: {fileID: 11400000, guid: c99c5e5245295c8419188f604e27936a, type: 2}
+  _skinShelfPurchasedSoundInfo: {fileID: 11400000, guid: 3fa82fc220114eb479d6582314d975bd, type: 2}
+  _skinShelfTryOnSoundInfo: {fileID: 11400000, guid: 2753871a45cdd0c4ca741f0f9d4193f3, type: 2}

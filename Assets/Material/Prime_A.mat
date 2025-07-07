@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Prime_A
+  m_Shader: {fileID: 4800000, guid: 7d58491dbfa1f9e43a3e8265e9ddd370, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _NOISEMOVEON_ON
+  - _TEXTURE0_ON_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _NoiseMove:
+        m_Texture: {fileID: 2800000, guid: 3004f11db2d9fd548a7e446bbfcd6f6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Texture0:
+        m_Texture: {fileID: 2800000, guid: ba36f13e00dfafe4cae684641934b113, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Texture1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Texture2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Texture3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _Float1: 5.82
+      _NoiseMoveIntensity: 0.075
+      _NoiseMoveOn: 1
+      _NoiseMoveSpeed: 30
+      _NoiseMoveTiling: 2
+      _OffsetX: 30.47
+      _OffsetY: 12
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _Resizing: 2.14
+      _ResizingX: 7.28
+      _ResizingY: 9.7
+      _Texture0_MoveIntensity: 0
+      _Texture0_OffsetX: 25.12
+      _Texture0_OffsetY: 6.9
+      _Texture0_On: 1
+      _Texture0_ResizingX: 74
+      _Texture0_ResizingY: 109.04
+      _Texture1_MoveIntensity: 0
+      _Texture1_OffsetX: 0
+      _Texture1_OffsetY: 0
+      _Texture1_On: 0
+      _Texture1_ResizingX: 1
+      _Texture1_ResizingY: 0
+      _Texture2_MoveIntensity: 0
+      _Texture2_OffsetX: 0
+      _Texture2_OffsetY: 0
+      _Texture2_On: 0
+      _Texture2_ResizingX: 1
+      _Texture2_ResizingY: 0
+      _Texture3_MoveIntensity: 0
+      _Texture3_OffsetX: 0
+      _Texture3_OffsetY: 0
+      _Texture3_On: 0
+      _Texture3_ResizingX: 1
+      _Texture3_ResizingY: 0
+    m_Colors:
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _NoiseMoveTilingSpeed: {r: 0.01, g: 0.01, b: 10, a: 10}
+      _Vector0: {r: 6.32, g: 6.78, b: -3.21, a: -3.84}
+  m_BuildTextureStacks: []

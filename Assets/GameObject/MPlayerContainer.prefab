@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1888899664710114
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4271294256346691}
+  - component: {fileID: 114409908765719589}
+  - component: {fileID: 114030097660901035}
+  m_Layer: 0
+  m_Name: MPlayerContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4271294256346691
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888899664710114}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114409908765719589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888899664710114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb08be00dcb2e255c6e7685905cd7fc8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _interpolationDataSource: 1
+  _notifications:
+  - localPlayerIsGameMaster: 1
+    messageSetting:
+      notificationType: 2
+      notificationLabel: 2
+      TargetAppId: 0
+      message: You are the new Game Master
+      priority: 31
+      keepTime: 2
+      soundInfo: {fileID: 11400000, guid: b47f3dbe1047d4f4aa1b5336f0a6bf7a, type: 2}
+      timerType: 0
+      CurrencyDetails: []
+  - localPlayerIsGameMaster: 0
+    messageSetting:
+      notificationType: 2
+      notificationLabel: 2
+      TargetAppId: 0
+      message: '{0} is the new Game Master'
+      priority: 31
+      keepTime: 3
+      soundInfo: {fileID: 11400000, guid: 647c1cdc96b812a40945b2ebc462f99d, type: 2}
+      timerType: 0
+      CurrencyDetails: []
+  _RTT: 0
+--- !u!114 &114030097660901035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888899664710114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: 0a109c28acd7211b249a923eaaad5d93, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

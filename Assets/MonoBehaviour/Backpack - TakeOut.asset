@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: Backpack - TakeOut
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: 5a97b3a3bbeb83b4d91a03426ca4d56b, type: 3}
+  - {fileID: 8300000, guid: 77c6e581e5836694db18ba8554bde7b6, type: 3}
+  - {fileID: 8300000, guid: ddd111c8924f16b48b030da57a617514, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 1
+  VolumeHigh: 1
+  Loop: 0
+  AudioSource: {fileID: 82739881929156190, guid: caff5b569595bec4d98feb3bea5e0e38, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: -1

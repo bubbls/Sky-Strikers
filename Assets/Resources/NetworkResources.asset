@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7681fe2b78568dc3a5a17778ec569271, type: 3}
+  m_Name: NetworkResources
+  m_EditorClassIdentifier:
+  NetworkRunner: {fileID: 114370861591453226, guid: 5430da0df3ef39e468a504243a19a7be, type: 2}
+  MSession: {fileID: 114336350539671312, guid: 826abdbc27d48ee47b24b4eb6e823fdb, type: 2}
+  MPlayer: {fileID: 114746216321880703, guid: e91b50de8899a2a4b8649f88547b54c6, type: 2}
+  MPlayerContainer: {fileID: 114409908765719589, guid: bd31ae0f287d88c4c87d5dc0e951fdb9, type: 2}
+  PlayerVisualsController: {fileID: 114313576023909217, guid: 2df93bfcc4ab09c4da71964f68b28df3, type: 2}
+  ElevatorScenePath: Assets/Moon/Arena/Scenes/ShuttleElevator.unity
+  ClassChangeRoomScenePath: Assets/Moon/Arena/Scenes/ClassChangeRoom.unity
+  TutorialScenePath: Assets/Moon/Tutorial/Scenes/Tutorial.unity
+  BackfillingFieldTypes: 0000000002000000
+  ServerRegistrationFieldTypes: 0000000001000000
+  _sceneSettingsLookup:
+    m_keys: 0000000001000000e803000093010000020000002c010000
+    m_values:
+    - Path: Assets/Moon/Arena/Scenes/Hub.unity
+      QueueName: hub_session
+      PrivateQueueName: hub_session_private
+      DisplayName: HUB
+      AdditiveSceneSlotZeroPath: Assets/Moon/Arena/Scenes/ShuttleElevator.unity
+      AdditiveSceneSlotOnePath: Assets/Moon/Arena/Scenes/ClassChangeRoom.unity
+      AdditiveSceneSlotTwoPath: Assets/Moon/Arena/Scenes/TutorialElevator.unity
+    - Path: Assets/Moon/Arena/Scenes/BallsDeep_Maxima.unity
+      QueueName: arena_session
+      PrivateQueueName: arena_session_private
+      DisplayName: ARENA
+      AdditiveSceneSlotZeroPath: Assets/Moon/Arena/Scenes/ShuttleElevator.unity
+      AdditiveSceneSlotOnePath:
+      AdditiveSceneSlotTwoPath:
+    - Path: Assets/Moon/Arena/Scenes/BallsDeep_Halloween.unity
+      QueueName: arena_session
+      PrivateQueueName: arena_session_private
+      DisplayName: HALLOWEEN
+      AdditiveSceneSlotZeroPath: Assets/Moon/Arena/Scenes/ShuttleElevator.unity
+      AdditiveSceneSlotOnePath:
+      AdditiveSceneSlotTwoPath:
+    - Path: Assets/Moon/ReportingSystem/Scenes/Jail.unity
+      QueueName: hub_session
+      PrivateQueueName: hub_session_private
+      DisplayName: JAIL
+      AdditiveSceneSlotZeroPath:
+      AdditiveSceneSlotOnePath:
+      AdditiveSceneSlotTwoPath:
+    - Path: Assets/Moon/Arena/Scenes/BallsDeep_Maxima.unity
+      QueueName: arena_session_ranked
+      PrivateQueueName: arena_session_ranked_private
+      DisplayName: ARENA
+      AdditiveSceneSlotZeroPath: Assets/Moon/Arena/Scenes/ShuttleElevator.unity
+      AdditiveSceneSlotOnePath:
+      AdditiveSceneSlotTwoPath:
+    - Path: Assets/Moon/Tutorial/Scenes/Tutorial.unity
+      QueueName: hub_session
+      PrivateQueueName: hub_session_private
+      DisplayName: TUTORIAL
+      AdditiveSceneSlotZeroPath:
+      AdditiveSceneSlotOnePath:
+      AdditiveSceneSlotTwoPath: Assets/Moon/Arena/Scenes/TutorialElevator.unity
+  _suitClassAbilityLookup:
+    m_keys: 01000000020000000300000010270000
+    m_values:
+    - {fileID: 114939081171314537, guid: 1fc9a66a34b0bef408fb9dc1b3f0fb42, type: 2}
+    - {fileID: 114323582778681226, guid: 7d3008b04971d0e4e97a9c9c9c60d93e, type: 2}
+    - {fileID: 114278907808290330, guid: 72b47c259f026fd40877b16df12284db, type: 2}
+    - {fileID: 114470745192779971, guid: 4e28e7f26a5e2fd41bb65805a2df390b, type: 2}

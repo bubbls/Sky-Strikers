@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1150230580347801
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4014091771497920}
+  - component: {fileID: 114495498739725998}
+  - component: {fileID: 114123578452374552}
+  - component: {fileID: 114439322390753157}
+  m_Layer: 0
+  m_Name: MHubArenaExplodingTrampolinesController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4014091771497920
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150230580347801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114495498739725998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150230580347801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35255c4389b4231d0ac0ebe38017da4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _interpolationDataSource: 0
+  _IsFinishedAnimating:
+    _value: 0
+  _ShouldShow:
+    _value: 0
+  _lodListeners: []
+  _ActiveTrampolines: []
+  _spawnPoint: {fileID: 4014091771497920}
+  _initialSpawnDelay: 1
+  _minInterval: 4
+  _maxInterval: 7
+  _spawnSingleTrampolineInterval: 0.5
+  _trampolineLifetime: {x: 5, y: 10}
+  _minAmount: 5
+  _xRadius: 12.5
+  _zRadius: 9.5
+  _minAngleVariation: 5
+  _groundPos: -4.73
+  _mExplodingTrampolinePrefab: {fileID: 114101993669779496, guid: 83ecde8a654a76f4db3b2ddb6ff9f1f0, type: 2}
+--- !u!114 &114123578452374552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150230580347801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: 0a109c28acd7211b249a923eaaad5d93, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114439322390753157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150230580347801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: 0a109c28acd7211b249a923eaaad5d93, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _interpolationDataSource: 3
+  InterpolationSpace: 0
+  InterpolationTarget: {fileID: 0}
+  InterpolateErrorCorrection: 0
+  InterpolatedErrorCorrectionSettings:
+    MinRate: 3.3
+    MaxRate: 10
+    PosBlendStart: 0.25
+    PosBlendEnd: 1
+    PosMinCorrection: 0.025
+    PosTeleportDistance: 2
+    RotBlendStart: 0.1
+    RotBlendEnd: 0.5
+    RotTeleportRadians: 1.5
+  UseLegacySharedModeInterpolation: 0
+  TargetInterpolationDelay: 0.03

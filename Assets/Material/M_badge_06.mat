@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_badge_06
+  m_Shader: {fileID: 4800000, guid: 2b982f0d557f4a04eaf4cb5c2d9d0147, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _MATERIAL_ALBEDOCOLOR
+  m_InvalidKeywords:
+  - _HALFLAMBERTON_ON
+  - _KEYWORD0_ALBEDOCOLOR
+  - _Shadow1On
+  - _Shadow2On
+  - _SpecularOn
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Albedo:
+        m_Texture: {fileID: 2800000, guid: 110a7d70fc7b6c54680d6a0e4b50a788, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _InteriorMapping:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Matcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlbedoAdd: 0.5
+      _AlphaClip: 0
+      _AlphaCutoff: 0.5
+      _BakedColorOn: 0
+      _Blend: 0
+      _BumpScale: 1
+      _ClearCoatMask: 0
+      _ClearCoatSmoothness: 0
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailAlbedoMapScale: 1
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _Emission: 0
+      _EmissionIntensity: 1
+      _EnvDownInt: 1
+      _EnvSideInt: 1
+      _EnvUpInt: 1
+      _EnvironmentReflections: 1
+      _ExtraEmission: 0
+      _Float0: 0
+      _Float2: 0
+      _Float3: 0
+      _Float6: 0
+      _FresnelPower: 2
+      _FresnelScale: 1
+      _GlossMapScale: 0
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _HalfLambertOffset: 0.77
+      _HalfLambertOn: 1
+      _Intensity: 1
+      _InteriorDepth: -1
+      _InteriorDepthStretch: 1
+      _InteriorMip: 0
+      _InteriorRotateX: 0
+      _InteriorRotateY: 0
+      _Keyword0: 0
+      _Lower: 0
+      _MatcapIntensity: 6
+      _MatcapMip: 0
+      _MatcapOn: 0
+      _Material: 0
+      _Metallic: 0
+      _NormalMapOn: 0
+      _NormalScale: 0.917647
+      _NormalScale2: 0.917647
+      _OcclusionStrength: 1
+      _Outline: 0
+      _OutlineMax: 0
+      _OutlineSlider: 1
+      _Parallax: 0.005
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _Rim: 0
+      _RimLightOffset: 0.2
+      _RimLightStrength: 0.2
+      _RimPart: 0
+      _RimShadow: 0
+      _Scale: 5
+      _Shadow1: 1
+      _Shadow2: 1
+      _ShadowIntensity: 1
+      _ShadowOverride: 0
+      _Smoothness: 0.5
+      _SmoothnessTextureChannel: 0
+      _SpecView: 0
+      _Specular: 1
+      _Specular1: 0
+      _SpecularHighlights: 1
+      _SpecularIntensity: 4.5
+      _SpecularIntensity1: 1
+      _SpecularOffset: 0.2
+      _SpecularStrength: 0.2
+      _SrcBlend: 1
+      _Surface: 0
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      _AlbedoColor: {r: 1, g: 1, b: 1, a: 0}
+      _AlbedoTiling: {r: 1, g: 1, b: 0, a: 0}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _EnvDownColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvSideColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvUpColor: {r: 0, g: 0, b: 0, a: 0}
+      _ExtraEmissionColor1: {r: 1, g: 1, b: 1, a: 1}
+      _ExtraEmissionColor2: {r: 1, g: 1, b: 1, a: 1}
+      _InteriorColor: {r: 0, g: 0, b: 0, a: 0}
+      _InteriorTilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _MatcapColor: {r: 1, g: 1, b: 1, a: 0}
+      _NormalMapTilling: {r: 1, g: 1, b: 0, a: 0}
+      _NormalMapTilling2: {r: 1, g: 1, b: 0, a: 0}
+      _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+      _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+      _RimLightColor1: {r: 1, g: 1, b: 1, a: 1}
+      _ScreenColor: {r: 0, g: 0, b: 0, a: 0}
+      _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

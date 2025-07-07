@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: Hub - Piano - Red - A6
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: 1d8b20c7fbb90dd4e99c1c2ec76895cd, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 1
+  VolumeHigh: 1
+  Loop: 0
+  AudioSource: {fileID: 82269289115514514, guid: 4c740e9450e4810428aa661794391583, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: 6

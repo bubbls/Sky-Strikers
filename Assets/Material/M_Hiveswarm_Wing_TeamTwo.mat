@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Hiveswarm_Wing_TeamTwo
+  m_Shader: {fileID: 4800000, guid: b298d7c6553a6c04b85ddcae91bee8c0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AlbedoAEmission:
+        m_Texture: {fileID: 2800000, guid: 3516f5ee164db3549b3c25e388caf92c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MatCapTex:
+        m_Texture: {fileID: 2800000, guid: 5516ab18dadbf27459449a445e300859, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TeamTwoTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaClip: 0
+      _AlphaCutoff: 0.5
+      _AlphaToMask: 0
+      _BackColorIntensity: 0
+      _BacklightOffset: -1.48
+      _BacklightSoft: 1.49
+      _Blend: 0
+      _BlendModePreserveSpecular: 1
+      _BumpScale: 1
+      _CenterRadius: 0.08627427
+      _CenterRadiusSoft: 0.1705882
+      _ChangeColorOn: 0
+      _ClearCoatMask: 0
+      _ClearCoatSmoothness: 0
+      _CollMode: 2
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailAlbedoMapScale: 1
+      _DetailNormalMapScale: 1
+      _Diameter: 0
+      _DissolveColorSoft: 0.1
+      _DissolveMax: 1
+      _DissolveMin: 0
+      _DissolveOffset: 0
+      _DissolveSoft: 0.1
+      _DistortionIntensity: 1
+      _DownPos: -643.714
+      _DstBlend: 0
+      _DstBlendAlpha: 0
+      _EdgeLight: 0
+      _EdgeLightRange: 0.06
+      _EdgeLightSoft: 1
+      _EmissionIsTalkMask: 0
+      _EmissionSpeed: 0
+      _EmissionSwitch: 0
+      _EnergyOffsetC: 1
+      _EnergySoft: 0
+      _EnvironmentReflections: 1
+      _FresnelOn: 0
+      _FresnelPow: 0.01
+      _FresnelRange: 0
+      _FresnelSoft: 1
+      _GlassRange: 8.002
+      _GlossMapScale: 0
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _InnerColorOn: 0
+      _InnerOutlineInt: 0
+      _LightProbeInt: 1.5
+      _LightProbeLerp: 0.8
+      _LightProbeOn: 1
+      _MatCap: 0
+      _MatCapIntensity: 0.38
+      _MatCapMip: 1.26
+      _MaxOffset: 1
+      _Metallic: 0
+      _MinOffset: 0
+      _NegateUV: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.005
+      _QueueControl: 0
+      _QueueOffset: 0
+      _RangeOffset: 0.6
+      _RangeSoft: 0.1
+      _ReceiveShadows: 1
+      _Shop: 0
+      _SimplifiedOn: 0
+      _Smoothness: 0.5
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SrcBlendAlpha: 1
+      _StarryParallaxScale: 0
+      _StarrySpeed: 0
+      _StarryTiling: 1
+      _Surface: 0
+      _SwitchUV: 0
+      _TalkColorHue: 0.05
+      _UpPos: -643.185
+      _UplightOffset: -1.19
+      _UplightSoft: 1.3
+      _VertexAO: 0
+      _Volume: 1
+      _WindQuantity: 0
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      _BackgroundColor: {r: 0, g: 0.0088411, b: 0.14117648, a: 1}
+      _BacklightColor: {r: 0.4245283, g: 0.038047336, b: 0.3429399, a: 0.5529412}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _ChangeColor: {r: 1, g: 1, b: 1, a: 0}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DissolveColor: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 0}
+      _DistortionSpeed: {r: 0, g: 0, b: 0, a: 0}
+      _DistortionTiling: {r: 1, g: 1, b: 0, a: 0}
+      _EdgeLightColor: {r: 1.4142135, g: 0.43685123, b: 0.73359644, a: 0}
+      _EmissionColor: {r: 1.4980391, g: 1.4980391, b: 1.4980391, a: 1}
+      _EmissionColorDown: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
+      _FresnelColor: {r: 0, g: 0, b: 0, a: 1}
+      _GlassColor: {r: 0, g: 0, b: 0, a: 0}
+      _InnerColor: {r: 1, g: 0.6987091, b: 0, a: 0}
+      _LightColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 0}
+      _MainColor: {r: 1, g: 1, b: 1, a: 1}
+      _MainSpeed: {r: 0, g: 0, b: 0, a: 0}
+      _MainTiling: {r: 1, g: 1, b: 0, a: 0}
+      _MaskSpeed: {r: 0, g: 0, b: 0, a: 0}
+      _MaskTiling: {r: 1, g: 1, b: 0, a: 0}
+      _Noise1Color: {r: 0, g: 0.9896781, b: 1, a: 0}
+      _NoiseColor: {r: 0.8018868, g: 0.4593135, b: 0.20803666, a: 0}
+      _NoiseTex2Offset: {r: 0, g: 0, b: 0, a: 0}
+      _NoiseTex2Speed: {r: 0, g: 0, b: 0, a: 0}
+      _NoiseTexSpeed: {r: 0, g: 0, b: 0, a: 0}
+      _NoiseTexTiling: {r: 1, g: 1, b: 0, a: 0}
+      _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _UplightColor: {r: 0.9528302, g: 0.22921856, b: 0.22921856, a: 1}
+  m_BuildTextureStacks: []

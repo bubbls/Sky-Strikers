@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2c151ea13672bddfba3dbd955bd1cf, type: 3}
+  m_Name: PlayerRankBadgeConfig
+  m_EditorClassIdentifier:
+  _rankBadgeDataList:
+  - Name: Rookie 1
+    RankBadgeAsset: {fileID: 21300000, guid: 5da5d43b79bafbb43af9e1a93823444a, type: 2}
+  - Name: Rookie 2
+    RankBadgeAsset: {fileID: 21300000, guid: 6c2c104021a720e46a9f107ca8cefa36, type: 2}
+  - Name: Rookie 3
+    RankBadgeAsset: {fileID: 21300000, guid: f9ac3ca10026d814e82afbbbdaa4bb90, type: 2}
+  - Name: Rookie 4
+    RankBadgeAsset: {fileID: 21300000, guid: 99364172578a5de49a4076c6dd542838, type: 2}
+  - Name: Contender 1
+    RankBadgeAsset: {fileID: 21300000, guid: 4d005e9ed7b268248ae2d90edf615132, type: 2}
+  - Name: Contender 2
+    RankBadgeAsset: {fileID: 21300000, guid: 3d1756053aef2df4faefb4551ea0b07b, type: 2}
+  - Name: Contender 3
+    RankBadgeAsset: {fileID: 21300000, guid: 1f5c3cf8ba6e2424ab7cc5c8d184df50, type: 2}
+  - Name: Contender 4
+    RankBadgeAsset: {fileID: 21300000, guid: 9960dfce6d5bb454ab385246c795a085, type: 2}
+  - Name: Contender 5
+    RankBadgeAsset: {fileID: 21300000, guid: 3c9b7a5b1606e984a8b92de7a7565ca6, type: 2}
+  - Name: Veteran 1
+    RankBadgeAsset: {fileID: 21300000, guid: dbce267e3d31c974fa9b968860dd3171, type: 2}
+  - Name: Veteran 2
+    RankBadgeAsset: {fileID: 21300000, guid: 59691259a58fdeb4e884d36ca305559b, type: 2}
+  - Name: Veteran 3
+    RankBadgeAsset: {fileID: 21300000, guid: e3c558fbd5d974440b367108ba4bf8b9, type: 2}
+  - Name: Veteran 4
+    RankBadgeAsset: {fileID: 21300000, guid: ab27d85bb9a936e4cb4f7d9aa82eb537, type: 2}
+  - Name: Veteran 5
+    RankBadgeAsset: {fileID: 21300000, guid: 25ff80be1cfc584499b0a0bb74d54c61, type: 2}
+  - Name: Ace 1
+    RankBadgeAsset: {fileID: 21300000, guid: 0f0e25b725551b3419681e26c5abcb68, type: 2}
+  - Name: Ace 2
+    RankBadgeAsset: {fileID: 21300000, guid: 41c52e766e8e2fe4cbef476b45e0218a, type: 2}
+  - Name: Ace 3
+    RankBadgeAsset: {fileID: 21300000, guid: 5d913f15e61c4914881d3b3fbb2d018f, type: 2}
+  - Name: Ace 4
+    RankBadgeAsset: {fileID: 21300000, guid: 1c654f3fa1e210946a977088e7281f9a, type: 2}
+  - Name: Ace 5
+    RankBadgeAsset: {fileID: 21300000, guid: e5016c62699fe044c94fa35709fb8a07, type: 2}
+  - Name: Elite 1
+    RankBadgeAsset: {fileID: 21300000, guid: c1a169be2019c614b95139f6a3c288f8, type: 2}
+  - Name: Elite 2
+    RankBadgeAsset: {fileID: 21300000, guid: 4fef96a680e1d2041beb617f0abfda3d, type: 2}
+  - Name: Elite 3
+    RankBadgeAsset: {fileID: 21300000, guid: fd4d11251b1f0ce49905d299b5c789ec, type: 2}
+  - Name: Elite 4
+    RankBadgeAsset: {fileID: 21300000, guid: 9bd54357d73cb7d4bb0086b5e5683f15, type: 2}
+  - Name: Elite 5
+    RankBadgeAsset: {fileID: 21300000, guid: 2d660908b9c6c5c4e827b047ea82a871, type: 2}
+  - Name: Master 1
+    RankBadgeAsset: {fileID: 21300000, guid: 9de2f9c03af3b954181c065bb9209e2d, type: 2}
+  - Name: Master 2
+    RankBadgeAsset: {fileID: 21300000, guid: 3f6885a6ac1da6a46bf80f645fc8b572, type: 2}
+  - Name: Master 3
+    RankBadgeAsset: {fileID: 21300000, guid: 12a005349002f414eb1cf796dcc75402, type: 2}
+  - Name: Master 4
+    RankBadgeAsset: {fileID: 21300000, guid: 6908e66ba326eee439caa4f83f87e3f2, type: 2}
+  - Name: Master 5
+    RankBadgeAsset: {fileID: 21300000, guid: 13c7c07438cfc424096dda62e29c3c9b, type: 2}
+  - Name: Champion 1
+    RankBadgeAsset: {fileID: 21300000, guid: 6464d40780b972e45929600f16e08454, type: 2}
+  - Name: Champion 2
+    RankBadgeAsset: {fileID: 21300000, guid: 3742322e1b49ce547bafdb176529c1b3, type: 2}
+  - Name: Champion 3
+    RankBadgeAsset: {fileID: 21300000, guid: ebf47c22f51393f4580025d5eae8af0e, type: 2}
+  - Name: Champion 4
+    RankBadgeAsset: {fileID: 21300000, guid: 4fede896c98eb2c42833da6a00daa890, type: 2}
+  - Name: Champion 5
+    RankBadgeAsset: {fileID: 21300000, guid: 4fdf933f559aa2249b9579ce9f32c62c, type: 2}
+  - Name: Striker Legend
+    RankBadgeAsset: {fileID: 21300000, guid: 15127a83e8b666b438a2265c3e07a06c, type: 2}

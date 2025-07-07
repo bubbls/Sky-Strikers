@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746c761e901fb4354720f4bef0443ac5, type: 3}
+  m_Name: SuitWeapon_PrimeDefault
+  m_EditorClassIdentifier:
+  TeamMaterials:
+  - Default: {fileID: 2100000, guid: d2de5b6862d777f488529398cef1533a, type: 2}
+    Emission: {fileID: 2100000, guid: 3ae2c5387b244434b9acaff9d0e0fc5b, type: 2}
+    Glass: {fileID: 2100000, guid: 9673163c5b7bef545bf5ae1c1e609be4, type: 2}
+    Spawning: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 0}
+  - Default: {fileID: 2100000, guid: d2de5b6862d777f488529398cef1533a, type: 2}
+    Emission: {fileID: 2100000, guid: 3ae2c5387b244434b9acaff9d0e0fc5b, type: 2}
+    Glass: {fileID: 2100000, guid: 9673163c5b7bef545bf5ae1c1e609be4, type: 2}
+    Spawning: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 0}
+  - Default: {fileID: 2100000, guid: 89d3997c834dd2d449368f73130952d9, type: 2}
+    Emission: {fileID: 2100000, guid: 5535cea23a22eff4bb2c564f515eda96, type: 2}
+    Glass: {fileID: 2100000, guid: 47b380bf8b8c1894b803c935f6f0e361, type: 2}
+    Spawning: {fileID: 2100000, guid: 04529d45d375b3e4bad0d9e9491f5f3c, type: 2}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 0}
+  BallHitFx: {fileID: 114048564209596145, guid: 55630541b2aaf9e40b6e8cef223426d4, type: 2}
+  GoalScoredFx:
+  - {fileID: 1082185176519808, guid: d7c0e431a0758fc4bb8fbdeccf5fc723, type: 2}
+  - {fileID: 1082185176519808, guid: d7c0e431a0758fc4bb8fbdeccf5fc723, type: 2}
+  - {fileID: 1082185176519808, guid: d7c0e431a0758fc4bb8fbdeccf5fc723, type: 2}
+  SfxChangeVisual: {fileID: 11400000, guid: d37f03ad9ea4cbf48b4266dca6a0042c, type: 2}
+  SfxEquip: {fileID: 11400000, guid: d12041162f927504f8e0488aff287fd2, type: 2}
+  SfxHitHard: {fileID: 11400000, guid: 880b7d0a1150fed44949a634f814b07c, type: 2}
+  SfxHitSoft: {fileID: 11400000, guid: 194159996ec38e2468e35c0284d26aa3, type: 2}
+  SfxGoal: {fileID: 11400000, guid: a10d3b291cf48bf40b2627fbbf0ea580, type: 2}
+  SfxNoAmmo: {fileID: 11400000, guid: c25b94dd90d1f104ba46adee0170befb, type: 2}
+  SfxLastAmmoUsed: {fileID: 11400000, guid: 07b250cc50d392d4c9cee8ef27616b4f, type: 2}
+  _suitWeaponVisual: {fileID: 114762551515475981, guid: 0508b622bb5cff94598b28c0b415766d, type: 2}
+  SfxSwingBat: {fileID: 0}

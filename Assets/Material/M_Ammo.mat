@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Ammo
+  m_Shader: {fileID: 4800000, guid: 3aa51ff017b4718428b0fc59cb4cb6fa, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 2c9bc717774039843a5c6617b08ba021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RoughMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SnowMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SnowTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AO: 1
+      _AOIntensity: 0.4
+      _AddLights: 0
+      _Alpha: 1
+      _AlphaClip: 0
+      _AlphaCutoff: 0.5
+      _BacklightOffset: -0.42
+      _BacklightSoft: 0.25
+      _Bake: 0
+      _BakedColorIntensity: 1
+      _BakedColorOn: 0
+      _BakedEmissionIntensity: 1
+      _Blend: 0
+      _BoundarySharpenIntensity: 0
+      _BumpScale: 1
+      _ClearCoatMask: 0
+      _ClearCoatSmoothness: 0
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailAlbedoMapScale: 1
+      _DetailNormalMapScale: 1
+      _DetectionRegion: 2
+      _Distance: 1
+      _DstBlend: 0
+      _Emission: 1
+      _EmissionIntensity: 10
+      _EmissionMin: 0.1
+      _EmissionSpeed: 0
+      _EnvDownInt: 1
+      _EnvSideInt: 1
+      _EnvUpInt: 1
+      _EnvironmentReflections: 1
+      _ExtraEmission: 0
+      _Float0: 0
+      _Float2: 0
+      _Float3: 0
+      _Float7: 0
+      _Fog: 0
+      _ForceAO: 0
+      _Gloss: 256
+      _GlossMapScale: 0
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _Gray: 0
+      _Group: 1
+      _HalfLambertOffset: 0.62
+      _HalfLambertOn: 0
+      _HandDrawn: 0
+      _HighIntensity: 2.56
+      _HighlightMin: 0.1
+      _Intensity: 1
+      _LayerEnd: 0.05
+      _LookBakedColor: 0
+      _Lower: 0.8
+      _Metallic: 1
+      _Mix: 0
+      _Normal: 1
+      _NormalScale: 0.5
+      _NormalTiling: 1
+      _OcclusionStrength: 1
+      _Offset: 0
+      _Outline: 0
+      _OutlineChange: 1
+      _OutlineMax: 0
+      _OutlineSlider: 1
+      _OutlineWidth: 0.6
+      _PBR: 1
+      _Parallax: 0.005
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadow: 0
+      _ReceiveShadows: 1
+      _Rim: 1
+      _RimLight: 0
+      _RimLightOffset: 0.3
+      _RimLightStrength: 0.4
+      _RimMultiplier: 0.6
+      _RimOffset: 0.2
+      _RimPart: 0
+      _RimShadow: 0
+      _Rotation: 0.15
+      _RoughMapOn: 0
+      _RoughMapTiling: 1
+      _Roughness: 1
+      _Scale: 0.5
+      _Shadow: 1
+      _Shadow1: 1
+      _Shadow2: 1
+      _ShadowIntensity: 1
+      _ShadowOverride: 1
+      _SimplifiedOn: 0
+      _Skybox: 1
+      _Smooth: 0
+      _Smoothness: 0.5
+      _SmoothnessMax: 20
+      _SmoothnessMin: 2
+      _SmoothnessTextureChannel: 0
+      _SnowMaskInt: 0
+      _SnowOn: 0
+      _SnowPow: 2
+      _SnowRange: 0
+      _SnowRangeSoft: 1
+      _SnowTexturePower: 1
+      _SpecView: 1
+      _Specular: 1
+      _Specular1: 0
+      _SpecularHighlights: 1
+      _SpecularIntensity: 2.5
+      _SpecularIntensity1: 1
+      _SpecularOffset: 0.15
+      _SpecularStrength: 0.7
+      _SrcBlend: 1
+      _Strength: 0.1
+      _Surface: 0
+      _Tangent: 0.66
+      _Tilling: 1
+      _Transparency: 0.5
+      _UplightOffset: 0
+      _UplightSoft: 0.5
+      _Upper: 4.71
+      _VertexAO: -1
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      _AO: {r: 0, g: 0, b: 0, a: 1}
+      _AOColor: {r: 0, g: 0, b: 0, a: 1}
+      _AlbedoColor: {r: 1, g: 1, b: 1, a: 0}
+      _AwayColor: {r: 1, g: 1, b: 1, a: 1}
+      _BacklightColor: {r: 0.21003917, g: 0.20185119, b: 0.2264151, a: 0.6039216}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DefaultColor: {r: 1, g: 1, b: 1, a: 1}
+      _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+      _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 1.6142802, g: 1.6142802, b: 1.6142802, a: 1}
+      _EnvDownColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvSideColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvUpColor: {r: 0, g: 0, b: 0, a: 0}
+      _ExtraEmissionColor1: {r: 1, g: 1, b: 1, a: 1}
+      _ExtraEmissionColor2: {r: 1, g: 1, b: 1, a: 1}
+      _HighlightColor: {r: 1, g: 1, b: 1, a: 0}
+      _HomeColor: {r: 1, g: 1, b: 1, a: 1}
+      _IntersectionColor: {r: 1, g: 1, b: 1, a: 1}
+      _OutlineColor: {r: 0, g: 0.6509804, b: 0.3673517, a: 1}
+      _PatternTiling: {r: 1, g: 1, b: 0, a: 0}
+      _RimLightColor: {r: 0.20392157, g: 0.6156863, b: 1, a: 1}
+      _RimLightColor1: {r: 0.043137256, g: 0.5058824, b: 0.99215686, a: 1}
+      _RoughMapColor: {r: 1, g: 1, b: 1, a: 0}
+      _ShadowColor: {r: 0.4666667, g: 1, b: 0.8618674, a: 1}
+      _SimplifiedColor: {r: 1, g: 1, b: 1, a: 0}
+      _SkyboxColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+      _SkyboxOffset: {r: 2, g: 0, b: 0, a: 0}
+      _SnowColor: {r: 1, g: 1, b: 1, a: 1}
+      _SnowMaskTilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _SnowTiling: {r: 1, g: 1, b: 0, a: 0}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+      _Tilling: {r: 1, g: 4, b: 5, a: 0}
+      _UplightColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

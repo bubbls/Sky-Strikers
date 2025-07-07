@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: MagePunk_Bat_Open
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: 5fded49ec3a1d1d4289da047cdc728d2, type: 3}
+  - {fileID: 8300000, guid: c3f3c1039eec99a49b9a4a31a75c90d1, type: 3}
+  - {fileID: 8300000, guid: bba8763656bdd25428bc082b7aa9a751, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 1
+  VolumeHigh: 0.7
+  Loop: 0
+  AudioSource: {fileID: 82120888499552642, guid: 49988a20ddf243a47a6333c3d3b6c7a4, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: 6

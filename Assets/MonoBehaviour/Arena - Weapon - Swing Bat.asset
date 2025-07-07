@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: Arena - Weapon - Swing Bat
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: b6a7315315b6ea9449f80664592a87ca, type: 3}
+  - {fileID: 8300000, guid: 74f01442333a6f04588c63d031a31e83, type: 3}
+  - {fileID: 8300000, guid: 54f2a3228a0b81143802a052659fc88f, type: 3}
+  - {fileID: 8300000, guid: 9447f94477e84294a92b339ecbe3d2db, type: 3}
+  - {fileID: 8300000, guid: c7f62d4545e454f4eac98c9a8513a38e, type: 3}
+  PitchLow: 0.8
+  PitchHigh: 1.2
+  VolumeLow: 0
+  VolumeHigh: 1
+  Loop: 0
+  AudioSource: {fileID: 82120888499552642, guid: 49988a20ddf243a47a6333c3d3b6c7a4, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: -1

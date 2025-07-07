@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: NebulaGod_Jetstream_End
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: bd4bb42de3312514f807f9975299edac, type: 3}
+  - {fileID: 8300000, guid: 9580b7aada88a224a865f22ef4937c73, type: 3}
+  - {fileID: 8300000, guid: 419286d181ac7b4458e58badc3f323d3, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 0.7
+  VolumeHigh: 0.7
+  Loop: 0
+  AudioSource: {fileID: 82739881929156190, guid: caff5b569595bec4d98feb3bea5e0e38, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: -1

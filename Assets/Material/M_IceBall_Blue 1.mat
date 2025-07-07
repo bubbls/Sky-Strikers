@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_IceBall_Blue 1
+  m_Shader: {fileID: 4800000, guid: 875eb94f659ebb54eb2310bea3921b51, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _AlphaOn
+  - _EmissionOn
+  - _NormalOn
+  - _PBROn
+  - _ShadowOverrideOn
+  - _SkyboxOn
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 1fa350c6b13decc4c90408d21d02b768, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 90bd64b3e07ab6740a320e96e6a078c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RMATex:
+        m_Texture: {fileID: 2800000, guid: 57aeb12353ba5e247a05907304ab22ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SkyboxTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AO: 1
+      _AOIntensity: 0.4
+      _AddLights: 0
+      _Alpha: 1
+      _AlphaClip: 0
+      _Bake: 0
+      _Blend: 0
+      _BumpScale: 0.67
+      _ClearCoatMask: 0
+      _ClearCoatSmoothness: 0
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailAlbedoMapScale: 1
+      _DetailNormalMapScale: 1
+      _Distance: 1
+      _DstBlend: 0
+      _Emission: 1
+      _EmissionIntensity: 10
+      _EnvironmentReflections: 1
+      _FaceLit: 1
+      _Fog: 0
+      _ForceAO: 0
+      _Gloss: 256
+      _GlossMapScale: 0
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _Gray: 0
+      _HandDrawn: 0
+      _HighIntensity: 2.56
+      _IceIntensity: 1
+      _IceMultiplier: 45.7
+      _Intensity: 10
+      _LayerEnd: 0.05
+      _Limit: 0
+      _Lower: 0
+      _Metallic: 1
+      _Mix: 0
+      _Normal: 1
+      _NormalScale: 0.5
+      _OcclusionStrength: 1
+      _Offset: 0
+      _PBR: 1
+      _Parallax: 0.005
+      _QueueOffset: 0
+      _ReceiveShadow: 0
+      _ReceiveShadows: 1
+      _Rim: 0
+      _RimLight: 0
+      _RimLightStrength: 1
+      _RimMultiplier: 1
+      _Rotation: 0.15
+      _Roughness: 1
+      _Scale: 10.8
+      _Shadow: 1
+      _ShadowIntensity: 1.33
+      _ShadowOverride: 1
+      _Skybox: 1
+      _Smoothness: 0.5
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SpecularIntensity: 5
+      _SrcBlend: 1
+      _Strength: 0.1
+      _Surface: 0
+      _Tangent: 0.66
+      _Tilling: 0.66
+      _Upper: 4.71
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      _AO: {r: 0, g: 0, b: 0, a: 1}
+      _AOColor: {r: 0, g: 0, b: 0, a: 1}
+      _AwayColor: {r: 1, g: 1, b: 1, a: 1}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+      _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0.0886776, g: 1.0054884, b: 1.4461263, a: 1}
+      _HomeColor: {r: 1, g: 1, b: 1, a: 1}
+      _RimLightColor: {r: 0.6462264, g: 0.8362701, b: 1, a: 1}
+      _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+      _SkyboxColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+      _SkyboxOffset: {r: 2, g: 0, b: 0, a: 0}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _Tilling: {r: 1, g: 4, b: 5, a: 0}
+  m_BuildTextureStacks: []

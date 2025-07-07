@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PolyLitSurface
+  m_Shader: {fileID: 4800000, guid: 657eb65231567a741b84bd7c36b534b6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EmissionOn
+  - _KEYWORD0_SOLIDRIMLIGHT
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: {}
+    m_Ints: {}
+    m_Floats:
+      Emission_: 2
+      RimEmission_: 1.5
+      _ASEOutlineWidth: 0
+      _Alpha: 0
+      _Bake: 0
+      _Blue: 0
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _Distance: 0.2
+      _DstBlend: 0
+      _EdgeLength: 15
+      _Emission: 2
+      _EmissionIntensity: 1
+      _Float0: 0
+      _Fog: 0
+      _ForceAO: 0
+      _Frequency: 1
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _GlowIntensity: 1
+      _Intensity: 1.5
+      _InvFade: 1
+      _Keyword0: 0
+      _Lower: 0
+      _Metallic: 0
+      _Mode: 0
+      _Normal: 0
+      _OcclusionStrength: 1
+      _Orange: 0
+      _PBR: 0
+      _Parallax: 0.02
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadow: 0
+      _Rim: 0
+      _RimEmission: 1.5
+      _RimLightOffset: 0.2
+      _RimLightStrength: 0.2
+      _RimMultiplier: 0.6
+      _Roughness: 0
+      _Scale: 0.15
+      _ShadowIntensity: 1
+      _Skybox: 0
+      _Smoothness: 0
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SpecularIntensity: 1
+      _SrcBlend: 1
+      _Tilling: 1
+      _TransAmbient: 0.56
+      _TransDirect: 0.15
+      _TransNormalDistortion: 0.16
+      _TransScattering: 16.3
+      _TransShadow: 0.44
+      _Translucency: 23
+      _UVSec: 0
+      _ZWrite: 1
+      __dirty: 0
+    m_Colors:
+      _AOColor: {r: 0, g: 0, b: 0, a: 1}
+      _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+      _Albedo: {r: 1, g: 1, b: 1, a: 1}
+      _AwayColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _ColorAH: {r: 1, g: 1, b: 1, a: 1}
+      _ColorAL: {r: 1, g: 1, b: 1, a: 1}
+      _ColorAM: {r: 1, g: 1, b: 1, a: 1}
+      _ColorBH: {r: 1, g: 1, b: 1, a: 1}
+      _ColorBL: {r: 1, g: 1, b: 1, a: 1}
+      _ColorBM: {r: 1, g: 1, b: 1, a: 1}
+      _DefaultColor: {r: 1, g: 1, b: 1, a: 1}
+      _DefaultColorH: {r: 1, g: 1, b: 1, a: 1}
+      _DefaultColorL: {r: 1, g: 1, b: 1, a: 1}
+      _DefaultColorM: {r: 1, g: 1, b: 1, a: 1}
+      _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+      _HomeColor: {r: 1, g: 1, b: 1, a: 1}
+      _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+      _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+      _SkyboxColor: {r: 1, g: 1, b: 1, a: 1}
+      _SkyboxOffset: {r: 0, g: 0, b: 0, a: 0}
+      _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_BuildTextureStacks: []

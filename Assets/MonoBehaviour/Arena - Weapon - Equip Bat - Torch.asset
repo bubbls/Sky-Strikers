@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: Arena - Weapon - Equip Bat - Torch
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: f3c3e682de659f94db58394d534048dc, type: 3}
+  - {fileID: 8300000, guid: 8b6add647fc43014da229ac19e7e21ae, type: 3}
+  - {fileID: 8300000, guid: 8394607eff05b784fbd5fb03b9af203f, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 1
+  VolumeHigh: 1
+  Loop: 0
+  AudioSource: {fileID: 82120888499552642, guid: 49988a20ddf243a47a6333c3d3b6c7a4, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: 6

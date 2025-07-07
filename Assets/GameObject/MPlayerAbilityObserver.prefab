@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1065785204008028
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4841573512180333}
+  - component: {fileID: 114470745192779971}
+  - component: {fileID: 114973457398661117}
+  - component: {fileID: 114885477621429701}
+  m_Layer: 0
+  m_Name: MPlayerAbilityObserver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4841573512180333
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065785204008028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114470745192779971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065785204008028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd29829c90701d1a5b3230b73580b8f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _interpolationDataSource: 3
+  _locomotionConfiguration:
+    JumpMultiplier: {x: 1.1, y: 1.1, z: 1.1}
+    VelocityLimit: 0.4
+    MaxJumpSpeed: 6.75
+    RigidbodyDrag: 0
+    RigidbodyMaxLinearVelocity: 1E+16
+    ConstantForce: {x: 0, y: 0, z: 0}
+    BodyColliderPhysicMaterial: {fileID: 0}
+    BodyColliderIsTrigger: 1
+    HeadColliderRadius: 0.15
+    HeadColliderPhysicMaterial: {fileID: 13400000, guid: 97c541a5e7fe6ae4ca0f71edb113f686, type: 2}
+  _observerLocomotionPlugin: {fileID: 114885477621429701}
+  _minLivCameraInteractionDistance: 1.1
+  _minLivCameraFacingAngleForInteraction: 30
+--- !u!114 &114973457398661117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065785204008028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: 0a109c28acd7211b249a923eaaad5d93, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114885477621429701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065785204008028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9be1a9c8401f0f2cf2abb00bace451, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _maxMoveSpeed: 15
+  _moveAcceleration: 8
+  _moveDeceleration: 30
+  _moveDamping: 17.5
+  _moveDeadzone: 0.05
+  _verticalMoveXBlockingThreshold: 0.4

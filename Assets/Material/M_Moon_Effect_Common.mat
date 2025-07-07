@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Moon_Effect_Common
+  m_Shader: {fileID: 4800000, guid: b309f17337a69324db35c8d6d1d5c25e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Dissolve2Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 0b900229a0d8312439bbb2a06ee93d58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _UVNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _Cullmode: 2
+      _Dissolve: 0
+      _Dissolve2: 0
+      _Dissolve2A: 0
+      _Dissolve2Rotat: 0
+      _DissolveA: 0
+      _DissolveHardEdge: 0
+      _DissolveHardIntensity: 0
+      _DissolveHardWidth: 1
+      _DissolveIntensity: 0
+      _DissolveRadial: 0
+      _DissolveRotat: 0
+      _DissolveSoft: 0
+      _Dst: 1
+      _Main: 0
+      _MainMip: 0
+      _MainRadial: 0
+      _MainTexRotat: 0
+      _Mask: 0
+      _MaskA: 0
+      _MaskCustom: 0
+      _MaskIntensity: 0
+      _MaskRadial: 0
+      _MaskRotat: 0
+      _MaskSoft: 0
+      _Noise: 0
+      _NoiseColorInt: 0
+      _NoiseColorPow: 1
+      _QueueControl: -1
+      _QueueOffset: 0
+      _Scr: 1
+      _UVNoiseInt: 0
+      _UVNoiseRotat: 0
+    m_Colors:
+      _Dissolve2Speed: {r: 0, g: 0, b: 0, a: 0}
+      _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+      _DissolveRadialTilingSpeed: {r: 1, g: 1, b: 0, a: 0}
+      _DissolveSpeed: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _MainColor: {r: 1, g: 1, b: 1, a: 1}
+      _MainTexRadialTilingSpeed: {r: 1, g: 1, b: 0, a: 0}
+      _MainTexSpeed: {r: 0.1, g: 0, b: 0, a: 0}
+      _MaskRadialTilingSpeed: {r: 1, g: 1, b: 0, a: 0}
+      _MaskSpeed: {r: -0.31, g: 0, b: 0, a: 0}
+      _UVNoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

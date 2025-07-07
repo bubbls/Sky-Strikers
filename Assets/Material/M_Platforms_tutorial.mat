@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Platforms_tutorial
+  m_Shader: {fileID: 4800000, guid: 325a2f8c6d54c534ba52169ecbd672e9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _BAKEDCOLORON_ON
+  - _EMISSION
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 05f13aa7fe583b24c92d62cb08eeec8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _VergeNoise:
+        m_Texture: {fileID: 2800000, guid: 95bac41b62ec6e74193e348c43cef69e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Add: 0.21
+      _AlphaClip: 0
+      _AlphaCutoff: 0.5
+      _AlphaToMask: 0
+      _BakedColorIntensity: 0.1
+      _BakedColorOn: 1
+      _BakedEmissionIntensity: 20
+      _Blend: 0
+      _BlendModePreserveSpecular: 1
+      _BoundarySharpenIntensity: 0
+      _BumpScale: 1
+      _ClearCoatMask: 0
+      _ClearCoatSmoothness: 0
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailAlbedoMapScale: 1
+      _DetailNormalMapScale: 1
+      _DetectionRegion: 2
+      _DstBlend: 0
+      _DstBlendAlpha: 0
+      _EmissionMin: 0.6
+      _EmissionSpeed: 1
+      _EnvironmentReflections: 1
+      _Float0: 453.9
+      _Float1: 0.924
+      _Float2: 35.54
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossinessSource: 0
+      _GlossyReflections: 1
+      _HighlightMin: 1
+      _HightlightMain: 0.05
+      _Int: 0.2
+      _Lerp: 0
+      _LightProbeInt: 0
+      _Lod: 3
+      _Low: 0
+      _Metallic: 0
+      _Mode: 0
+      _Mul: 2.42
+      _NoiseAdd: 0.9
+      _NoiseTiling: 450
+      _Normal: 1
+      _NormalScale: 0.8
+      _NormalTiling: 80
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _QueueControl: -1
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _Roughness: 1
+      _SHColorIntensity: 1.6
+      _SHColorOn: 0
+      _SHIntensity: 0.2
+      _Shininess: 0
+      _SimplifiedOn: 0
+      _Smoothness: 0.5
+      _SmoothnessMain: 5
+      _SmoothnessMax: 30
+      _SmoothnessMin: 3
+      _SmoothnessSource: 0
+      _SmoothnessTextureChannel: 0
+      _SpecSource: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SrcBlendAlpha: 1
+      _Surface: 0
+      _UVSec: 0
+      _VergeRange: 1.5
+      _VergeSoft: 4.77
+      _VergeSpeed: 0.2
+      _VergeWavinessSpeed: 10
+      _VertexAO: -0.63
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      _BallPosition: {r: 0, g: 0, b: 0, a: 0}
+      _BallPositionTest: {r: 0, g: 0, b: 0, a: 0}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 1.3041189, g: 1.3041189, b: 1.3041189, a: 1}
+      _EmissionColorDown: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+      _HighlightColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0}
+      _HightlightColor: {r: 0.30807227, g: 0.36609763, b: 0.4056604, a: 0}
+      _IntersectionColor: {r: 1, g: 1, b: 1, a: 1}
+      _LightDir: {r: 0.41, g: 0.35, b: 0, a: 0}
+      _LowColor: {r: 1, g: 1, b: 1, a: 0}
+      _PatternTiling: {r: 1, g: 1, b: 0, a: 0}
+      _SimplifiedColor: {r: 0.40000004, g: 0.39607847, b: 0.4156863, a: 0}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _Vector1: {r: 0, g: 1, b: 0, a: 0}
+      _Vector2: {r: 0.39, g: 0, b: 0, a: 0}
+      _VergeColor: {r: 0.25640798, g: 0.8113208, b: 0.5186256, a: 0}
+      _VergeTiling: {r: 2, g: 2, b: 0, a: 0}
+      _custom_SHAb: {r: 0.2427715, g: -0.14053594, b: -0.097379886, a: 0.46792412}
+      _custom_SHAg: {r: 0.008934084, g: -0.16868506, b: 0.11355352, a: 0.39862213}
+      _custom_SHAr: {r: -0.22164136, g: -0.15423588, b: 0.16826941, a: 0.5741417}
+      _custom_SHBb: {r: -0.003740201, g: 0.022334019, b: -0.06296045, a: -0.03618491}
+      _custom_SHBg: {r: 0.00631012, g: 0.029809682, b: 0.09662857, a: -0.010559832}
+      _custom_SHBr: {r: 0.002689551, g: 0.025194991, b: 0.07272866, a: 0.019532189}
+      _custom_SHC: {r: 0, g: 0, b: 0, a: 0}
+      _custorm_SHC: {r: 0.0202, g: -0.0675, b: 0.0225, a: 1}
+  m_BuildTextureStacks: []

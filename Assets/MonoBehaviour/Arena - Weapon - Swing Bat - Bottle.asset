@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: Arena - Weapon - Swing Bat - Bottle
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: b04760d436bae1342998b833eb6849a5, type: 3}
+  - {fileID: 8300000, guid: 1f79d3308ac898c428c510145ea4bf39, type: 3}
+  - {fileID: 8300000, guid: e568b35e1e2d0954cbdd09765ebfc44e, type: 3}
+  - {fileID: 8300000, guid: 3fbbeb5d35cefc741926902fa2a9add1, type: 3}
+  - {fileID: 8300000, guid: 93fab9aac1fcece45a862cd5408d1b59, type: 3}
+  - {fileID: 8300000, guid: 8c8f0cd06750e554cb0b7b220ee5a801, type: 3}
+  - {fileID: 8300000, guid: 846f9d2ded7bfe84d80f21b21de5c22d, type: 3}
+  - {fileID: 8300000, guid: 465f1a877b75cab4f939cf15db729701, type: 3}
+  - {fileID: 8300000, guid: 1e6d7143d41a32141b2fb35b8b297039, type: 3}
+  - {fileID: 8300000, guid: 3140153bb99d4f147bca84a506055eaf, type: 3}
+  - {fileID: 8300000, guid: f2b4f1cab98fafc45a288243dfc5a5ea, type: 3}
+  - {fileID: 8300000, guid: d5d459a0c1315714eb72ce87f921bc74, type: 3}
+  - {fileID: 8300000, guid: 495cf824d3ff64c4ca2ab5b1b4a465f2, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 1
+  VolumeHigh: 1
+  Loop: 0
+  AudioSource: {fileID: 82120888499552642, guid: 49988a20ddf243a47a6333c3d3b6c7a4, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: 6

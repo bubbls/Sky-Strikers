@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631882842, guid: a8249866a315b66cbd5a186e312362d0, type: 3}
+  m_Name: Mixpanel
+  m_EditorClassIdentifier:
+  ShowDebug: 0
+  ManualInitialization: 1
+  APIHostAddress: https://api.mixpanel.com/
+  RuntimeToken: dc7a963edc01f434a0cce69769bc07ec
+  DebugToken: 0dda7b6e6cbe4e1905745021ce3e875d
+  FlushInterval: 60
+  UseIpAddressForGeolocation: 1

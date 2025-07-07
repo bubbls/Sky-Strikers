@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VFX_scene_HoleLight_light2
+  m_Shader: {fileID: 4800000, guid: 217aeb1e6e0f2b848917af8546c8d0e1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLOR3ON_ON
+  m_InvalidKeywords:
+  - _MAINCOLOR3ON_ON
+  - _MAINCOLOR4_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2999
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex3:
+        m_Texture: {fileID: 2800000, guid: d00560b71c27189439f8f26495b7b44e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Mask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Mask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskTex3:
+        m_Texture: {fileID: 2800000, guid: e5c6d49e9141c15478b005de1ad43a93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskTex4:
+        m_Texture: {fileID: 2800000, guid: c48c42cc741cbc143a95434e57c7f940, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Noise3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Tex1:
+        m_Texture: {fileID: 2800000, guid: d701d20c1a66ad342835f9fde1d92645, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Tex2:
+        m_Texture: {fileID: 2800000, guid: 483f3d8e99c022d4f892c311b696b77f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Tex4:
+        m_Texture: {fileID: 2800000, guid: ea549d611c7fb754b8468932d1c31e0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Tex5:
+        m_Texture: {fileID: 2800000, guid: edb0779dff937564d8cb82fbc5a0426b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _Color2: 0
+      _Color2On: 0
+      _Color3On: 1
+      _Color4On: 0
+      _Color5On: 0
+      _CullMode: 2
+      _CullMode1: 2
+      _Float0: 0
+      _Float1: 0
+      _Float2: 0
+      _Float3: 0
+      _Float4: 0
+      _MainColor3On: 1
+      _MainColor4: 1
+      _Noise3Intensity: 0.5
+      _QueueControl: 0
+      _QueueOffset: 0
+    m_Colors:
+      _Color0: {r: 0, g: 0.37254903, b: 1, a: 0.4392157}
+      _Color1: {r: 2.9960785, g: 1.1294118, b: 0.32941177, a: 1}
+      _Color2: {r: 0, g: 0.3764706, b: 1, a: 0.56078434}
+      _Color3: {r: 1, g: 0.23137255, b: 0, a: 0.5019608}
+      _Color4: {r: 0, g: 0.49803922, b: 1, a: 0.3764706}
+      _Color5: {r: 0, g: 0.37254903, b: 1, a: 0.48235294}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _LightColor: {r: 0, g: 0.37254903, b: 1, a: 0.39607844}
+      _LightTexTilingOffset: {r: 1, g: 1, b: 0, a: -0.2}
+      _Main4Color: {r: 0, g: 0.49803922, b: 1, a: 0.3764706}
+      _MainColor: {r: 0.20392157, g: 0.6784314, b: 0.8117647, a: 1}
+      _MainColor2: {r: 0, g: 0.3764706, b: 1, a: 0.56078434}
+      _MainColor3: {r: 0.6039216, g: 1, b: 1, a: 0.5372549}
+      _MainColor5: {r: 0, g: 0.37254903, b: 1, a: 0.48235294}
+      _MainTex2Color: {r: 0, g: 0.49803922, b: 1, a: 0.3764706}
+      _MainTex2TilingOffset: {r: 32, g: 1.5, b: 0, a: -0.61}
+      _MainTex3TilingOffset: {r: 32, g: 2, b: 0, a: -1}
+      _MainTex4Color: {r: 0, g: 0.49803922, b: 1, a: 0.3764706}
+      _MainTex4TilingOffset: {r: 32, g: 4, b: 0, a: -1}
+      _MainTexMaskTilingOffset: {r: 1, g: 1, b: 0, a: -0.15}
+      _MainTexTiling: {r: 32, g: 2, b: 0, a: 0}
+      _MainTexTilingOffset: {r: 32, g: 2, b: 0, a: -1}
+      _Mask1TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _Mask2TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _MaskTex3TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _MaskTex4TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _MoveTex2Color: {r: 0, g: 0.49803922, b: 1, a: 0.3764706}
+      _MoveTexColor: {r: 0.6039216, g: 1, b: 1, a: 0.5372549}
+      _MoveTexMask2TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _MoveTexMaskTilingOffset: {r: 1, g: 1, b: 0, a: -0.15}
+      _Noise3Speed: {r: 0, g: 0, b: 0, a: 0}
+      _Noise3TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _Speed: {r: 0, g: 0.15, b: 0, a: 0}
+      _Speed2: {r: 0, g: 0.25, b: 0, a: 0}
+      _Tex1Speed: {r: 0, g: 0, b: 0, a: 0}
+      _Tex1TilingOffset: {r: 15.708, g: 10, b: 0, a: -7.27}
+      _Tex2Speed: {r: 0, g: 0, b: 0, a: 0}
+      _Tex2TilingOffset: {r: 32, g: 1.5, b: 0, a: -0.61}
+      _Tex3Speed: {r: 0, g: 0.25, b: 0, a: 0}
+      _Tex3TilingOffset: {r: 15.708, g: 4, b: 0, a: -1}
+      _Tex4Speed: {r: 0, g: 0.25, b: 0, a: 0}
+      _Tex4TilingOffset: {r: 32, g: 4, b: 0, a: -1}
+      _Tex5TilingOffset: {r: 1, g: 1, b: 0, a: -0.2}
+  m_BuildTextureStacks: []

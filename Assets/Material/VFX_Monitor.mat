@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VFX_Monitor
+  m_Shader: {fileID: 4800000, guid: 334c9a749630d8245a66b8ffa48b8ebc, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ExtraEmissionOn
+  - _Shadow1On
+  - _Shadow2On
+  - _ShadowOverrideOn
+  - _SpecularOn
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 16c307079ce337842b7971c9bbc369cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SpecularMask:
+        m_Texture: {fileID: 2800000, guid: ffc73e6c8366b884591fb11dd725cdae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Alpha: 0
+      _AlphaClip: 0
+      _Blend: 0
+      _BumpScale: 1
+      _Change: 0
+      _ClearCoatMask: 0
+      _ClearCoatSmoothness: 0
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailAlbedoMapScale: 1
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _Emission: 0
+      _EmissionIntensity: 1
+      _EnvDownInt: 1
+      _EnvSideInt: 1
+      _EnvUpInt: 1
+      _EnvironmentReflections: 1
+      _ExtraEmission: 1
+      _Fog: 0
+      _GlossMapScale: 0
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _Intensity: 1.2
+      _Lower: 0.8
+      _Metallic: 0
+      _OcclusionStrength: 1
+      _Outline: 0
+      _OutlineChange: 0
+      _OutlineMax: 0
+      _OutlineSlider: 1
+      _OutlineWidth: 0
+      _Parallax: 0.005
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _Rim: 0
+      _RimLightOffset: 0.2
+      _RimLightStrength: 0.2
+      _RimPart: 0
+      _RimShadow: 0
+      _Scale: 0.5
+      _Shadow1: 1
+      _Shadow2: 1
+      _ShadowIntensity: 1
+      _ShadowOverride: 1
+      _Smooth: 0
+      _Smoothness: 0.5
+      _SmoothnessTextureChannel: 0
+      _SpecView: 0
+      _Specular: 1
+      _Specular1: 0
+      _SpecularHighlights: 1
+      _SpecularIntensity: 2
+      _SpecularIntensity1: 1
+      _SpecularOffset: 0.15
+      _SpecularStrength: 0.75
+      _SrcBlend: 1
+      _Surface: 0
+      _Tilling: 1
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      _AwayColor: {r: 1, g: 1, b: 1, a: 1}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DefaultColor: {r: 1, g: 1, b: 1, a: 1}
+      _DiffuseColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _EnvDownColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvSideColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvUpColor: {r: 0, g: 0, b: 0, a: 0}
+      _ExtraEmissionColor1: {r: 0, g: 1.375392, b: 1.4142135, a: 1}
+      _ExtraEmissionColor2: {r: 1.4142135, g: 1.0481818, b: 0, a: 1}
+      _HomeColor: {r: 1, g: 1, b: 1, a: 1}
+      _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+      _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+      _RimLightColor1: {r: 1, g: 1, b: 1, a: 1}
+      _ShadowColor: {r: 0.7877358, g: 0.9129925, b: 1, a: 1}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

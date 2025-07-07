@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8bfd802e2ce160983af860ed87f5c0, type: 3}
+  m_Name: BulwarpSetting
+  m_EditorClassIdentifier:
+  suitClass: 3
+  detailSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: 4de84e23b2213bd489008b1e51ba65c0, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: b891356ad9e700a49ac7f61bd2cb8699, type: 2}
+  titleSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: b8e0f5e02a5c2a047ae33058376dab8a, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: 0a959dce632d37642900207a8a157c14, type: 2}
+  confirmSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: 3fb4a7f0492eafb45b7e712e7c424e33, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: 83b553fa57388264e8cf0778a89b0536, type: 2}
+  displayModel: {fileID: 1471340087424705, guid: ba1b5601e5adcde49b295640fdf6b79a, type: 2}
+  leftIntroSVG: {fileID: 11400000, guid: 091209260d7a9574cb5edd8019011116, type: 2}
+  rightRightSVG: {fileID: 11400000, guid: 45d53b8a1d039974c9e3572816a55795, type: 2}

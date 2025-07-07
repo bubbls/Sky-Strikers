@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8bfd802e2ce160983af860ed87f5c0, type: 3}
+  m_Name: JetstreamSetting
+  m_EditorClassIdentifier:
+  suitClass: 2
+  detailSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: a65433e233f40914899fd3f6d94beac9, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: 47d611b92f11aa4498b9647ab1a4440a, type: 2}
+  titleSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: 1da0bacfc1c611e4291226b5b794f525, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: 1a0904a9ed237af498b107efa6a24b6e, type: 2}
+  confirmSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: 3fb4a7f0492eafb45b7e712e7c424e33, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: 7c08079e5a3669147857dab46bf772f2, type: 2}
+  displayModel: {fileID: 1512030784108474, guid: af19ca829b9a9cd42a796052d064690f, type: 2}
+  leftIntroSVG: {fileID: 11400000, guid: 8dd86c6e1760c8643bc3723f0dd0c113, type: 2}
+  rightRightSVG: {fileID: 11400000, guid: 8d76ea778b8455340910f40f999cd422, type: 2}

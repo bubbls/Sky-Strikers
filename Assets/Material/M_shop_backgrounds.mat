@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_shop_backgrounds
+  m_Shader: {fileID: 4800000, guid: b42cf27c54ad0f74eadaa499182af3cd, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _GlassTex:
+        m_Texture: {fileID: 2800000, guid: 790f3f32552dc2541adf2131df4aecb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MirrorTexture:
+        m_Texture: {fileID: 2800000, guid: 008f5387123b4a042870cc429085d063, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaColorOn: 0
+      _AlphaCutoff: 0.5
+      _FresnelInt: 1
+      _FresnelPower: 4
+      _GlassInt: 0.063
+      _Hue: 0
+      _Int: 1
+      _Mip: 0
+      _MirrorOffset: 0.26
+      _MirrorTextureMip: 0
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _Saturation: 0
+      _Scale: 1
+      _Tiling: 3
+      _Value: 0
+    m_Colors:
+      _AlphaColor: {r: 0.4269756, g: 0.8310527, b: 0.8962264, a: 1}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _FresnelColor: {r: 0.6933962, g: 0.90719265, b: 1, a: 0.9490196}
+      _FresnelColorAInt: {r: 0.68627447, g: 0.9283996, b: 1, a: 0.8509804}
+      _GlassCenter: {r: 0, g: 0, b: 0.5, a: 0}
+      _GlassTextuerTiling: {r: 1, g: 1, b: 0, a: 0}
+      _MirrorTilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _Tiling: {r: 1.5, g: 0, b: 0, a: 0}
+      _TilingOffset: {r: 1, g: 1, b: -3.6, a: 0}
+  m_BuildTextureStacks: []

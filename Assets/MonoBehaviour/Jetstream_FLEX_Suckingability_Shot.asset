@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: Jetstream_FLEX_Suckingability_Shot
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: 6775c5e6ef633dd409d9896b2bc05ab2, type: 3}
+  - {fileID: 8300000, guid: 0fc080d1fb0762b42ab06331f3edabc0, type: 3}
+  - {fileID: 8300000, guid: 8d3c78b9843f54443afb5958be27230c, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 1
+  VolumeHigh: 1
+  Loop: 0
+  AudioSource: {fileID: 82739881929156190, guid: caff5b569595bec4d98feb3bea5e0e38, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: -1

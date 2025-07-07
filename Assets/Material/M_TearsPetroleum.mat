@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_TearsPetroleum
+  m_Shader: {fileID: 4800000, guid: 7174a2ced784369418f87f9793773efb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _WAVE_ON
+  m_InvalidKeywords:
+  - _DISSOLVECOLOR_ON
+  - _DISSOLVE_ON
+  - _KEYWORD
+  - _KEYWORD0_ON
+  - _MATCAPON_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Matcap:
+        m_Texture: {fileID: 2800000, guid: 439e5f3b389ca3b4da5cdd2c3fbb8a79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Noise:
+        m_Texture: {fileID: 2800000, guid: c641a75056c24af42bfa16a70f1cc1e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 5834440a02dfccd4196e0ed982aaccf1, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+      _Smoke:
+        m_Texture: {fileID: 2800000, guid: 396763d56a7a42b4ebcc807928e499c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _Dissolve: 1
+      _DissolveAmount: 0.571
+      _DissolveAmountMax: 2.04
+      _DissolveAmountMin: -1.08
+      _DissolveColor: 1
+      _DissolveSpread: 0.144
+      _Float0: 0
+      _Float1: 0
+      _Float2: 0
+      _Float3: 0
+      _Float4: 0
+      _Float7: 0.458
+      _HueMultiply: 4
+      _HueOffset: 0.369
+      _Keyword0: 1
+      _MatCapOn: 1
+      _MatcapIntensity: 0.8
+      _MatcapMip: 4.69
+      _MatcapOn: 1
+      _NoiseIntensity: 0.185
+      _NoiseSpeed: -4
+      _NormalScale: 1.187
+      _NormalrSpeed: 2
+      _QueueControl: 0
+      _QueueOffset: 0
+      _Saturation: 0.795
+      _SmokeNormal: 0.507
+      _SmokeNormalIntensity: 0.379
+      _SmokeSpeed: 4
+      _SmokeSubtract: 0
+      _TessValue: 12
+      _Value: 0.785
+      _Wave: 1
+      _WaveFlow: 0
+      _WaveMin: -1
+      _WaveSoft: 1
+      _WaveSpeed: 0
+      _dissolfe: 0
+    m_Colors:
+      _BaseColor: {r: 0.003921569, g: 0.019607844, b: 0.007843138, a: 0}
+      _Central: {r: 0, g: 0, b: 0, a: 0}
+      _Color0: {r: 0, g: 0, b: 0, a: 0}
+      _DissolveDirection: {r: 1, g: 0, b: 0, a: 0}
+      _DissolveEdgeColor: {r: 0.085172676, g: 0.6226415, b: 0.25401112, a: 0}
+      _DissolveNoiseTiling: {r: 2, g: 2, b: 0, a: 0}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+      _FresnleMatcap: {r: 0.1, g: 1, b: 5, a: 0}
+      _MainMax: {r: 4.57, g: -1.43, b: 0, a: 0}
+      _MatCapColor: {r: 0.8820755, g: 1, b: 0.96690017, a: 1}
+      _MatcapFresnle: {r: 0.1, g: 1, b: 5, a: 0}
+      _NoiseInt: {r: 0.1, g: 0.1, b: 0.1, a: 0}
+      _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
+      _NormalTiling: {r: 1, g: 1, b: 0, a: 0}
+      _SmokeColor: {r: 0.06968672, g: 0.16981131, b: 0.1393386, a: 0}
+      _SmokeSpeed: {r: 4, g: 4, b: 0, a: 0}
+      _SmokeTiling: {r: 1, g: 1, b: 0, a: 0}
+      _Vector0: {r: 3.08, g: 4.87, b: 0, a: 0}
+      _VertexInt: {r: 0, g: 0, b: 2.84, a: 0}
+      _WaveCentral: {r: 0, g: 0, b: 0, a: 0}
+      _WaveColor: {r: 0.1721698, g: 0.6886792, b: 0.48863807, a: 0}
+      _WaveRange: {r: 2.2, g: 3.8, b: 0, a: 0}
+  m_BuildTextureStacks: []

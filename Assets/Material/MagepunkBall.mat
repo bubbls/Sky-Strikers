@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MagepunkBall
+  m_Shader: {fileID: 4800000, guid: 3f72ccca41de5d742b2199dce624fb22, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Noise:
+        m_Texture: {fileID: 2800000, guid: b3533f25a1f99cf408831241a26ef322, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _DownPos: -644.068
+      _FollowY: 0
+      _InnerlineRange: 0.431
+      _InnerlineSoft: 0.313
+      _NoiseDisruptionInt: 0.141
+      _NoiseRange: 0.17
+      _NoiseRangeSoft: 0.17
+      _QueueControl: 0
+      _QueueOffset: 0
+      _Shop: 0
+      _TipCollapse: -0.1
+      _UpPos: -640.605
+      _VertexInt: 0.128
+    m_Colors:
+      _BaseColor: {r: 0.1462264, g: 1, b: 0.9393454, a: 1}
+      _BaseColor1: {r: 0.5848466, g: 0.22169748, b: 1, a: 0}
+      _EmissionColor: {r: 1.4980391, g: 1.4980391, b: 1.4980391, a: 1}
+      _NoiseDisruptionTilingSpeed: {r: 1, g: 1, b: 0.1, a: 0.1}
+      _NoiseTilingSpeed1: {r: 1, g: 1, b: -0.1, a: -0.1}
+      _TeamTwoColor1: {r: 1, g: 0.945098, b: 0.1254902, a: 1}
+      _TeamTwoColor2: {r: 1, g: 0.31764647, b: 0.22352883, a: 0}
+      _VertexNoiseTex: {r: 1, g: 1, b: 0.1, a: 0.1}
+  m_BuildTextureStacks: []

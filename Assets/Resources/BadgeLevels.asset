@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b035f73b21dc8ead5abd57296a54fc, type: 3}
+  m_Name: BadgeLevels
+  m_EditorClassIdentifier:
+  _defaultLevel:
+    Value: 0
+    NameColor: {r: 0.105882354, g: 0.9843137, b: 0.7058824, a: 1}
+    Icon: {fileID: 11400000, guid: 9b622be751086504cb46f657affa6a63, type: 2}
+  _badgeLevelLookup:
+    m_keys: 050000000600000008000000
+    m_values:
+    - LevelsList:
+      - Value: 10
+        NameColor: {r: 0.5568628, g: 0.37254903, b: 0.24705882, a: 1}
+        Icon: {fileID: 11400000, guid: 065374d9c5c8b9144b4645db580e8887, type: 2}
+      - Value: 50
+        NameColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+        Icon: {fileID: 11400000, guid: 736a168911872f240a1a9573808a2997, type: 2}
+      - Value: 100
+        NameColor: {r: 1, g: 0.64705884, b: 0.18039216, a: 1}
+        Icon: {fileID: 11400000, guid: 4b99ff0e9c18f6140a710ae457c2b5ee, type: 2}
+    - LevelsList:
+      - Value: 20
+        NameColor: {r: 0.5568628, g: 0.37254903, b: 0.24705882, a: 1}
+        Icon: {fileID: 11400000, guid: 962cdd593d8b85f4eaed8aca63b76a11, type: 2}
+      - Value: 100
+        NameColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+        Icon: {fileID: 11400000, guid: 86bd9a1ce0288b04ca688448e70ba21a, type: 2}
+      - Value: 200
+        NameColor: {r: 1, g: 0.64705884, b: 0.18039216, a: 1}
+        Icon: {fileID: 11400000, guid: d22f207b41ad8f541b1908992348f4e4, type: 2}
+    - LevelsList:
+      - Value: 100
+        NameColor: {r: 0.5568628, g: 0.37254903, b: 0.24705882, a: 1}
+        Icon: {fileID: 11400000, guid: cfe679aa4d876e947a4f3566df5fa6e2, type: 2}
+      - Value: 300
+        NameColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+        Icon: {fileID: 11400000, guid: e3111b40016d31444b8ba0cab6d7a08e, type: 2}
+      - Value: 1000
+        NameColor: {r: 1, g: 0.64705884, b: 0.18039216, a: 1}
+        Icon: {fileID: 11400000, guid: 2ed2058b10e5e304ca177913d2d642ab, type: 2}

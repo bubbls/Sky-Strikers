@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Goal_Light Preserve
+  m_Shader: {fileID: 4800000, guid: f1e5f4d5473ec19498e86be1cf340b66, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _FlashingOn
+  - _ShowAwayColor
+  m_InvalidKeywords:
+  - _HomeGoal
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 69700deb7fa6fdd4f90a905aa4dcf62d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlternatePeriod: 0
+      _BoundaryWidth: 0.1
+      _Extra: 0
+      _Float1: 1
+      _Float2: 1
+      _Float3: 1
+      _Float4: 1
+      _Float5: 1
+      _Frequency: 80
+      _Goal: 1
+      _Intensity: 1
+      _IsHomeGoal: 1
+      _MovingSpeed: 5
+      _Period: 1.3
+      _Speed: 5
+    m_Colors:
+      _AwayColor: {r: 1, g: 0.54509807, b: 0, a: 1}
+      _AwayGColor: {r: 1, g: 0.827451, b: 0, a: 1}
+      _BaseColor: {r: 0, g: 0.5058824, b: 0.83137256, a: 1}
+      _BaseMapTiling: {r: 1, g: 1, b: 1, a: 1}
+      _DefaultColor: {r: 0.019607844, g: 0.5764706, b: 0.27843136, a: 1}
+      _DefaultGColor: {r: 0.3254902, g: 0.7058824, b: 0, a: 1}
+      _GlowingColor: {r: 0, g: 0.7372549, b: 1, a: 1}
+      _HomeColor: {r: 0, g: 0.5058824, b: 0.83137256, a: 1}
+      _HomeGColor: {r: 0, g: 0.7372549, b: 1, a: 1}
+  m_BuildTextureStacks: []

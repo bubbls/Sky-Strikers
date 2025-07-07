@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_ShopSkin_Frosty_Blue_Melting
+  m_Shader: {fileID: 4800000, guid: 5f1f29eb763894f409f3fa6174dc845a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DISSOLVEON_ON
+  m_InvalidKeywords:
+  - _KEYWORD
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AlbedoAEmission:
+        m_Texture: {fileID: 2800000, guid: 1391de277054bbd4099bb4c1d6020535, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Noise2:
+        m_Texture: {fileID: 2800000, guid: 6d840806311a21c43b5686191c71a15f, type: 3}
+        m_Scale: {x: 6, y: 6}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaClipThreshold: 0.5
+      _AlphaCutoff: 0.5
+      _BacklightOffset: -0.93
+      _BacklightSoft: 1.15
+      _ChangeAmount: 0.492
+      _DissolveMax: 0.64
+      _DissolveMin: -1.14
+      _DissolveOffset: 0
+      _DissolveOn: 1
+      _EdgeWidth: 0.207
+      _EmissionSpeed: 0
+      _EmissionSwitch: 0
+      _EnvDownInt: 0.053
+      _EnvSideInt: 1
+      _EnvUpInt: 1.34
+      _FlameWidth: 0.076
+      _Float0: 1
+      _Float1: 6
+      _Float2: -0.31
+      _FresnelPower: 7
+      _FresnelScale: 0.001
+      _Keyword0: 0
+      _LightProbeLerp: 0.8
+      _LightProbeOn: 0
+      _MatcapIntensity: 0.2
+      _MatcapOn: 0
+      _Noise2Falloff: 6
+      _Noise2Tiling: 3
+      _NoiseAmount: -0.12
+      _NoiseSoft: 0.24
+      _PivotOffset: -1
+      _PivotScale: 0.268
+      _PivotSoft: 0.2
+      _Play: 0
+      _PlaySpeed: 2
+      _QueueControl: 0
+      _QueueOffset: 1
+      _ReceiveShadows: 1
+      _Reverse: 0
+      _SimplifiedOn: 0
+      _Spread: 0.93
+      _StartDelay: 0.5
+      _Switch: 0.22
+      _Swithc: 1
+      _UplightOffset: -0.53
+      _UplightSoft: 1.27
+      _VertexAO: 0
+      _play: 0
+    m_Colors:
+      _BacklightColor: {r: 0.763617, g: 0.7949448, b: 0.8301887, a: 0.5529412}
+      _Color0: {r: 0.33579564, g: 0.89433694, b: 0.9245283, a: 0}
+      _EdgeColor: {r: 0.7305147, g: 5.3403134, b: 4.9300175, a: 0}
+      _EissionColor: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColorDown: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+      _EnvDownColor: {r: 0.6029958, g: 0.49020988, b: 0.6792453, a: 0}
+      _EnvSideColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvUpColor: {r: 0.23936433, g: 0.31132057, b: 0.2573534, a: 0}
+      _FlameColor: {r: 0.06209449, g: 1.955976, b: 2.297496, a: 0}
+      _FresnelColor: {r: 0.3464311, g: 0.4245283, b: 0.405829, a: 0}
+      _MatcapColor: {r: 0.61681205, g: 0.631891, b: 0.7830188, a: 0}
+      _Noise2Tiling: {r: 6, g: 6, b: 0, a: 0}
+      _SpecColor: {r: 0.362451, g: 0.392549, b: 0.4245282, a: 0}
+      _UplightColor: {r: 0.8018868, g: 0.74514955, b: 0.74514955, a: 1}
+      _Vector0: {r: 1, g: 10, b: 0, a: 0}
+      _Vector1: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

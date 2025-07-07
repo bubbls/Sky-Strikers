@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: Bulwarp_Sliding_Start
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: 763853228dc38b042a5b89f0e34f9f8b, type: 3}
+  - {fileID: 8300000, guid: 80bd15785a8525d4ab2a8064b5ccecbb, type: 3}
+  - {fileID: 8300000, guid: eb1b1734a986ad0428ef783c31089081, type: 3}
+  - {fileID: 8300000, guid: be1b5eb5f88324e408520bee61d2107e, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 0.3
+  VolumeHigh: 0.3
+  Loop: 0
+  AudioSource: {fileID: 82739881929156190, guid: caff5b569595bec4d98feb3bea5e0e38, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: -1

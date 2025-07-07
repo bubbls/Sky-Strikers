@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Hologram_Fnt_Green_1
+  m_Shader: {fileID: 4800000, guid: 1c28e73c995047d4099277fbb24aa231, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2999
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ScanlineTex:
+        m_Texture: {fileID: 2800000, guid: b7c48268d61f08f40a617d963e1a837f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _DisturbanceFrequency: 1
+      _DisturbanceSpeed: -0.2
+      _DisturbanceWidth: 0.99
+      _Float1: 0
+      _Float2: 0
+      _Float3: 0
+      _Float4: 0
+      _Float5: 0
+      _FresnelBias: 1
+      _FresnelPower: 5
+      _FresnelScale: 0.5
+      _QueueControl: 0
+      _QueueOffset: -1
+      _Scanline2Alpha: 1
+      _ScanlineFreq: 150
+      _ScanlineFreq2: 1
+      _ScanlineIntensity: 0.5
+      _ScanlineSpeed: 0
+      _ScanlineSpeed2: -0.5
+      _ScanlineWidth: 0.9
+      _UpDownSpeed: 2
+    m_Colors:
+      _DisturbanceDirection: {r: 0.5, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _FresnelColor: {r: 0.6666667, g: 0.9882353, b: 0.41568628, a: 0}
+      _MainColor: {r: 0.22745094, g: 0.34117645, b: 0.14117643, a: 0}
+      _ScanlineVertexOffset: {r: 0.5, g: 0, b: 0, a: 0}
+      _ScanlineVertexOffset1: {r: 0.5, g: 0, b: 0, a: 0}
+      _UpDownDirection: {r: 0, g: 1, b: 0, a: 0}
+      _vertex: {r: 0, g: 17.79, b: 0, a: 0}
+  m_BuildTextureStacks: []

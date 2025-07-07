@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_BallsDeepTeamColor
+  m_Shader: {fileID: 4800000, guid: dc731a16aff795041a1d4f2d0ed98aa1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BAKEDCOLORON_ON
+  m_InvalidKeywords:
+  - _SIMPLIFIEDON_ON
+  - _TEAMTWOWIN_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MaskTex:
+        m_Texture: {fileID: 2800000, guid: df75221431672f2448bcb09b3040df1a, type: 3}
+        m_Scale: {x: 80.91, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _BakedColorOn: 1
+      _EmissionMin: 0.1
+      _EmissionSpeed: 0
+      _Float0: 1.18
+      _Float1: 0
+      _FntTexSpace: 4.27
+      _HighlightMin: 0.279
+      _MaskTexSpace: 2
+      _MaskTexSpeed: -0.5
+      _MaskTexTiling: 5
+      _NormalScale: 1
+      _NormalTiling: 0
+      _Offset: 0.13
+      _PointRadius: 0.355
+      _QueueControl: 0
+      _QueueOffset: 0
+      _Range: -0.015
+      _Roughness: 1
+      _SimplifiedOn: 1
+      _SmoothnessMax: 10
+      _SmoothnessMin: 10
+      _Soft: 0.036
+      _TeamColorSoft: 0.107
+      _TeamRange: 0.953
+      _TeamRangeLineUp: 0.191
+      _TeamTwoWin: 1
+      _VertexAO: 0
+    m_Colors:
+      _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+      _EmissionColor: {r: 194.0117, g: 194.0117, b: 194.0117, a: 1}
+      _HighlightColor: {r: 1, g: 1, b: 1, a: 0}
+      _MaskTexTiling: {r: 7.18, g: 1, b: 0, a: 0}
+      _PointTiling: {r: 500, g: 5, b: 0, a: 0}
+      _TeamOne: {r: 0.20784232, g: 0.5882353, b: 1, a: 0.015686275}
+      _TeamOneArrow: {r: 0.55998576, g: 0.9811321, b: 0.9811321, a: 1}
+      _TeamTwo: {r: 1, g: 0.3019598, b: 0.25097942, a: 0.015686275}
+      _TeamTwoArrow: {r: 1, g: 0.75, b: 0.852437, a: 0}
+  m_BuildTextureStacks: []

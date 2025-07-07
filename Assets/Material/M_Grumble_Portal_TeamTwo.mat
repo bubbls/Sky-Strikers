@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Grumble_Portal_TeamTwo
+  m_Shader: {fileID: 4800000, guid: d8acfe38d5257664794101b759904c87, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORTEXON_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ColorTexAInner:
+        m_Texture: {fileID: 2800000, guid: d2d1caab33d33cd4daeb4e660dcf533d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _InnerLineTex:
+        m_Texture: {fileID: 2800000, guid: c1fd0eb1e0718db48a35b1b507f7e38f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTexNoMip:
+        m_Texture: {fileID: 2800000, guid: a198cf0aa1eb53a40be5ac4e51bd43e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SpaceFarAwayTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SpaceTex:
+        m_Texture: {fileID: 2800000, guid: b6388ea4009137d4086f5b01348ac60c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _AlphaOffset: 0
+      _AlphaOffset1: 0
+      _AlphaSoft: 0.32
+      _AlphaSoft1: 0.1
+      _ApertureRange: 0.1
+      _ColorTex: 0
+      _ColorTexOn: 1
+      _ColorTextureInt: 0.81
+      _CullMode: 2
+      _Deep: 0.392
+      _DistortionInt: 0.267
+      _DoorSwitch: 0.63
+      _DoorSwitchMax: 1
+      _DoorSwitchMin: -0.2
+      _DoorSwitchSoft: 0.153
+      _Float0: -1
+      _Float1: 0.811
+      _Float2: -20.93
+      _Float3: -35.4
+      _Float4: 0.21
+      _HighLight2Offset: 0.223
+      _HighLight2Soft: 0.32
+      _HighLightInt: 0.8
+      _HighLightOffset: 0.006
+      _HighLightSoft: 0.92
+      _InnerLightOffset: 0.762
+      _InnerLightOffset1: 0.946
+      _InnerLightSoft: 0.438
+      _InnerLightSoft1: 0.4798824
+      _InnerLineOffset: 0
+      _InnerMaskOffset: 0.449
+      _InnerMaskSoft: 1.79
+      _InteriorDepth: -1
+      _InteriorDepthStretch: 0.722
+      _InteriorMip: 0
+      _InteriorRotateX: -0.5
+      _InteriorRotateY: 0
+      _MaskOffset: 0.927
+      _MaskSoft: 0.483
+      _MeshInt: 0.158
+      _MeshInteriorMip: 0
+      _MeshSpeed: -0.92
+      _MeshTilingZ: 0.71
+      _Mip: 2.31
+      _Noise2Offset: 0.401
+      _Noise2Soft: 0.417
+      _NoiseInt: 2
+      _NoiseMaskOffset: 0.7
+      _NoiseMaskOffset1: 0
+      _NoiseMaskSoft: 0.426
+      _NoiseMaskSoft1: 0.1
+      _NoiseTexPow: 1
+      _NumberOfSpirals: 0
+      _Offset: 0.859
+      _OpenDoorSwitch: 1
+      _OpenDoorSwitchMax: 1
+      _OpenDoorSwitchMin: -0.1
+      _OpenDoorSwitchSoft: 0.1
+      _OpenDoorSwitchSwitchMax: 1
+      _OpenOffset: 0
+      _OpenSoft: 0.1
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _Soft: 0.374
+      _Space2Speed: -0.58
+      _SpaceDeep: 0.372
+      _SpaceFarAwayOffset: -0.97
+      _SpaceFarAwaySoft: 1.56
+      _SpaceFarAwayTextureOn: 0
+      _SpaceFarAwayTextureRevolve: 0
+      _SpaceLineHeight: 0
+      _SpaceLineTiling: 1
+      _SpaceNoiseIntensity: 0.2
+      _SpaceSpeed: -3
+      _SpaceTexMip: 2
+      _Speed: -0.28
+      _Switch: 1
+      _SwitchMax: 1
+      _SwitchMin: 0
+      _SwitchSoft: 0.1
+      _Test: -1.68
+      _TestAdd: -15.9
+      _TilingZ: 0.97
+      _Tilingttt: 2.84
+      _UVNoiseInt: 0.267
+      _ZOffset: -1
+      _ZSoft: 2
+    m_Colors:
+      _ApertureColor: {r: 1, g: 0.99215686, b: 0.92156863, a: 0}
+      _ApertureColor2: {r: 1, g: 0.99215686, b: 0.92156863, a: 0}
+      _BaceGroundColor: {r: 0.09732112, g: 0.12605102, b: 0.254717, a: 0}
+      _BackgroundColor: {r: 0.1882353, g: 0.043137256, b: 0.17254902, a: 0}
+      _BaseColor: {r: 0, g: 0.37462083, b: 0.5754717, a: 0}
+      _Color0: {r: 0, g: 0.9809994, b: 1, a: 0}
+      _ColorTexColor: {r: 1, g: 0.8666667, b: 0.654902, a: 0}
+      _ColorTexTiling: {r: 1, g: 1, b: 0, a: 0}
+      _DistortionTilingSpeed: {r: 1, g: 1.22, b: -0.2, a: 0.5}
+      _DoorOffBackgroundColor: {r: 0.32941177, g: 0.07450981, b: 0.2509804, a: 1}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _FarAwayCOlor: {r: 0, g: 0.66164064, b: 1, a: 0}
+      _HightLight2Color: {r: 0.759434, g: 0.9753265, b: 1, a: 1}
+      _HightLightColor: {r: 0, g: 0.7453536, b: 1, a: 1}
+      _InnerLightColor: {r: 0, g: 0.9223943, b: 1, a: 0}
+      _InnerLineColor: {r: 0, g: 0.39215654, b: 1, a: 0}
+      _InteriorColor: {r: 0.8254717, g: 0.8403821, b: 1, a: 0}
+      _InteriorTilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _MaskSpeed: {r: -0.2, g: 0.5, b: 0, a: 0}
+      _MaskSpeed1: {r: -0.1, g: 1, b: 0, a: 0}
+      _MaskTiling: {r: 1, g: 0.66, b: 0, a: 0}
+      _MaskTiling1: {r: 1, g: 2.57, b: 0, a: 0}
+      _MaskTilingSpeed: {r: 1, g: 0.66, b: -0.2, a: 0.5}
+      _MeshColor: {r: 0.12735844, g: 0.8616724, b: 1, a: 0}
+      _NoiseColor: {r: 0.2264151, g: 0.15699537, b: 0.15699537, a: 1}
+      _NoiseColor2: {r: 0, g: 1, b: 1, a: 0}
+      _NoiseTilingSpeed: {r: 1, g: 0.4, b: -0.2, a: 0.5}
+      _Offset: {r: 0, g: 0, b: 0, a: 0}
+      _OpenDoorBackgroundColor: {r: 0.12156863, g: 0.32156864, b: 0.54901963, a: 0}
+      _Space2Color: {r: 0, g: 0.3615552, b: 0.4716981, a: 0}
+      _SpaceColor: {r: 1, g: 0.1882353, b: 0, a: 0}
+      _SpaceColor2: {r: 1, g: 0.1882353, b: 0, a: 0}
+      _SpaceFarAwayColor: {r: 0.13333334, g: 0.078431375, b: 0.10980392, a: 0}
+      _SpaceFarAwayTextureSize: {r: 1, g: 1, b: 0, a: 0}
+      _SpaceSpeed: {r: 0, g: -0.5, b: 0, a: 0}
+      _SpaceTiling2Offset: {r: 1, g: 0.54, b: 0.5, a: 0.5}
+      _SpaceTilingOffset: {r: 1, g: 9.68, b: 0.5, a: 0.5}
+      _Speed: {r: -0.2, g: 0.5, b: 0, a: 0}
+      _SwitchBackgroundColor: {r: 0.1882353, g: 0.3137255, b: 0.54901963, a: 0}
+      _Tiling: {r: 2, g: 4, b: 0, a: 0}
+      _TilingOffset: {r: 1, g: 1, b: 0.5, a: 0.5}
+      _UVNoiseSpeed: {r: -0.2, g: 0.5, b: 0, a: 0}
+      _UvNoiseTiling: {r: 1, g: 1.22, b: 0, a: 0}
+      _Vector0: {r: -1, g: -1, b: 1, a: 0}
+      _Vector1: {r: 2, g: -2, b: 0, a: 0}
+      _Vector2: {r: 1, g: -1, b: 0, a: 0}
+      _Vector3: {r: 1, g: 1, b: 0.63, a: 0}
+      _Vector5: {r: 1, g: 0.66, b: 0, a: 0}
+  m_BuildTextureStacks: []

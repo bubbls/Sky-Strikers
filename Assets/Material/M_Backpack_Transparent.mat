@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Backpack_Transparent
+  m_Shader: {fileID: 4800000, guid: 665023e966e845a468e32a0012948415, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 12f1fac972fe32d4d8416d74e94dc7e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 12f1fac972fe32d4d8416d74e94dc7e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaClip: 0
+      _AlphaCutoff: 0.5
+      _AlphaToMask: 0
+      _BacklightOffset: -0.209
+      _BacklightSoft: 1.304
+      _BakedColorOn: 0
+      _Blend: 0
+      _BlendModePreserveSpecular: 1
+      _BlendOp: 0
+      _BumpScale: 1
+      _ClearCoatMask: 0
+      _ClearCoatSmoothness: 0
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailAlbedoMapScale: 1
+      _DetailNormalMapScale: 1
+      _DstBlend: 10
+      _DstBlendAlpha: 10
+      _Emission: 0
+      _EmissionSpeed: 0
+      _EmissionSwitch: 0
+      _EnvDownInt: 1
+      _EnvSideInt: 1
+      _EnvUpInt: 1
+      _EnvironmentReflections: 1
+      _ExtraEmission: 0
+      _Float0: 0
+      _Float2: 0
+      _Float3: 0
+      _Float6: 0
+      _GlossMapScale: 0
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _HalfLambertOffset: 0.62
+      _HighlightMin: 0.1
+      _InnerOutlineInt: 0
+      _Intensity: 1
+      _Keyword0: 0
+      _Keyword1: 0
+      _Keyword2: 0
+      _LightProbeInt: 1.18
+      _LightProbeLerp: 0.5
+      _LightProbeOn: 1
+      _Lower: 0
+      _MatcapIntensity: 6
+      _MatcapMip: 0
+      _MatcapOn: 0
+      _Metallic: 0
+      _OcclusionStrength: 1
+      _OutlineWidth: 0.4
+      _Parallax: 0.005
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _Rim: 0
+      _RimEmission: 1.5
+      _RimLightOffset: 0.2
+      _RimLightStrength: 0.2
+      _RimPart: 0
+      _RimShadow: 0
+      _SampleGI: 0
+      _Scale: 0.05
+      _Shadow1: 0
+      _Shadow2: 0
+      _ShadowIntensity: 1
+      _ShadowOverride: 0
+      _Smooth: 0
+      _Smoothness: 0.5
+      _SmoothnessMax: 20
+      _SmoothnessMin: 2
+      _SmoothnessTextureChannel: 0
+      _SpecView: 0
+      _Specular: 0
+      _Specular1: 0
+      _SpecularHighlights: 1
+      _SpecularIntensity: 1
+      _SpecularIntensity1: 1
+      _SpecularOffset: 0.2
+      _SpecularStrength: 0.2
+      _SrcBlend: 5
+      _SrcBlendAlpha: 1
+      _Surface: 1
+      _Tilling: 1
+      _UplightOffset: -0.41
+      _UplightSoft: 0.793
+      _VertexAO: -0.65
+      _WorkflowMode: 1
+      _ZWrite: 0
+    m_Colors:
+      _AlbedoColor: {r: 1, g: 1, b: 1, a: 0}
+      _AlbedoTiling: {r: 1, g: 1, b: 0, a: 0}
+      _BacklightColor: {r: 0.8537736, g: 0.91761893, b: 1, a: 1}
+      _BaseColor: {r: 1, g: 1, b: 1, a: 0.29803923}
+      _Color: {r: 1, g: 1, b: 1, a: 0.29803923}
+      _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColorDown: {r: 1, g: 1, b: 1, a: 1}
+      _EnvDownColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvSideColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvUpColor: {r: 0, g: 0, b: 0, a: 0}
+      _ExtraEmissionColor1: {r: 1, g: 1, b: 1, a: 1}
+      _ExtraEmissionColor2: {r: 1, g: 1, b: 1, a: 1}
+      _HighlightColor: {r: 1, g: 1, b: 1, a: 0}
+      _InnerColor: {r: 1, g: 0.69803923, b: 0, a: 0}
+      _Offset: {r: 0, g: 0, b: 0, a: 0}
+      _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+      _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+      _RimLightColor1: {r: 1, g: 1, b: 1, a: 1}
+      _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+      _TintColor: {r: 1, g: 1, b: 1, a: 1}
+      _UplightColor: {r: 1, g: 0.9231806, b: 0.9103774, a: 1}
+  m_BuildTextureStacks: []

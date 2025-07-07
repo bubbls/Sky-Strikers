@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6980674961e7eee172f8c938ff61ef2d, type: 3}
+  m_Name: Suit_JetstreamDefault
+  m_EditorClassIdentifier:
+  SuitArmVisual: {fileID: 114207450702652435, guid: cca2de90686a83443859cade838bbd4d, type: 2}
+  LeftHand: {fileID: 114950168151850643, guid: 7a684d9c51850034baf211dfed485915, type: 2}
+  RightHand: {fileID: 114944857123866027, guid: c95b7c88fa8530249b9d9e64ae6b8c9f, type: 2}
+  TeamMaterials:
+  - Default: {fileID: 2100000, guid: d2de5b6862d777f488529398cef1533a, type: 2}
+    Emission: {fileID: 2100000, guid: 3ae2c5387b244434b9acaff9d0e0fc5b, type: 2}
+    Glass: {fileID: 2100000, guid: 9673163c5b7bef545bf5ae1c1e609be4, type: 2}
+    Spawning: {fileID: 0}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 11400000, guid: a74e03bc13587c24b91123e4de364258, type: 2}
+  - Default: {fileID: 2100000, guid: d2de5b6862d777f488529398cef1533a, type: 2}
+    Emission: {fileID: 2100000, guid: 3ae2c5387b244434b9acaff9d0e0fc5b, type: 2}
+    Glass: {fileID: 2100000, guid: 9673163c5b7bef545bf5ae1c1e609be4, type: 2}
+    Spawning: {fileID: 0}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 11400000, guid: a74e03bc13587c24b91123e4de364258, type: 2}
+  - Default: {fileID: 2100000, guid: 89d3997c834dd2d449368f73130952d9, type: 2}
+    Emission: {fileID: 2100000, guid: 5535cea23a22eff4bb2c564f515eda96, type: 2}
+    Glass: {fileID: 2100000, guid: 47b380bf8b8c1894b803c935f6f0e361, type: 2}
+    Spawning: {fileID: 0}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 11400000, guid: a74e03bc13587c24b91123e4de364258, type: 2}
+  SfxChangeVisual: {fileID: 11400000, guid: d37f03ad9ea4cbf48b4266dca6a0042c, type: 2}
+  ChangeLocationTeleportFx:
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  TeleportToFieldFx:
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  BornTeleportFx:
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  PlayerPortraits:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  SfxHitHard: {fileID: 11400000, guid: 880b7d0a1150fed44949a634f814b07c, type: 2}
+  SfxHitSoft: {fileID: 11400000, guid: 194159996ec38e2468e35c0284d26aa3, type: 2}
+  BallHitFx: {fileID: 114048564209596145, guid: 55630541b2aaf9e40b6e8cef223426d4, type: 2}
+  SfxBoostStart: {fileID: 11400000, guid: 0bc5c0643b595784c9508b86ea30bbc8, type: 2}
+  SfxBoostLoop: {fileID: 11400000, guid: aec76f7c2495eff48876f17ddda0ce74, type: 2}
+  SfxBoostEnd: {fileID: 11400000, guid: 6435e5cd1fcb0034c9231f28c245b34c, type: 2}
+  SfxBoostFilled: {fileID: 11400000, guid: bc1acc56721c4a44fa909668ede71ecc, type: 2}
+  SfxBoostEmpty: {fileID: 11400000, guid: e7dc4a32e2629b44591ea9f999ea95a2, type: 2}

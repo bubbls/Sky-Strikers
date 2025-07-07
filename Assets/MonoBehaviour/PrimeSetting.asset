@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8bfd802e2ce160983af860ed87f5c0, type: 3}
+  m_Name: PrimeSetting
+  m_EditorClassIdentifier:
+  suitClass: 1
+  detailSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: 1912a5be20c7c6946bcfe2e300819190, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: 45f30dacc8b662a4ea657a9d57875f5b, type: 2}
+  titleSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: dd1dada2f3692464883f0c3d7b185401, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: d577bebc73437be4fb1fd52d78554494, type: 2}
+  confirmSVG:
+  - displayState: 0
+    displaySVG: {fileID: 11400000, guid: 3fb4a7f0492eafb45b7e712e7c424e33, type: 2}
+  - displayState: 1
+    displaySVG: {fileID: 11400000, guid: dbbd269ed93c1f34b9d9acaae567362d, type: 2}
+  displayModel: {fileID: 1148918007440360, guid: d2b46a9bb81940a45839ecabb48a10e3, type: 2}
+  leftIntroSVG: {fileID: 11400000, guid: da352fcb362070d4a86d6dd0263990c4, type: 2}
+  rightRightSVG: {fileID: 11400000, guid: b6b644436b611cc4f80eab68eae86593, type: 2}

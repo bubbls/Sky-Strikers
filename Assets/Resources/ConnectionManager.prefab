@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1371381647102362
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4004274033434620}
+  - component: {fileID: 114141555238147403}
+  - component: {fileID: 114270190756077005}
+  - component: {fileID: 114249414271601958}
+  - component: {fileID: 114651887419956668}
+  m_Layer: 0
+  m_Name: ConnectionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4004274033434620
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371381647102362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114141555238147403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371381647102362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8eb36ddf59a7c94b4a7e008eea8cde3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _notifications:
+  - connectionStatus: 3
+    messageSetting:
+      notificationType: 1
+      notificationLabel: 1
+      TargetAppId: 0
+      message:
+      priority: 32
+      keepTime: 3.3
+      soundInfo: {fileID: 11400000, guid: 51fdd3fb6fa98c3409ec73a7865282e1, type: 2}
+      timerType: 0
+      CurrencyDetails: []
+  - connectionStatus: 2
+    messageSetting:
+      notificationType: 1
+      notificationLabel: 1
+      TargetAppId: 0
+      message:
+      priority: 33
+      keepTime: 4
+      soundInfo: {fileID: 11400000, guid: 6c55af39b2754e24a92524cfca0a64f7, type: 2}
+      timerType: 0
+      CurrencyDetails: []
+--- !u!114 &114270190756077005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371381647102362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecd81a37d750728b5135afe72f9bcbc, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114249414271601958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371381647102362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc79a04c0052406a7f700b37200065f3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ShowHierarchyWindowOverlay: 1
+  PostLoadDelayFrames: 1
+--- !u!114 &114651887419956668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371381647102362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27d6d534460abced4bad1a99a796d30b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  skybox: {fileID: 2100000, guid: 794e324df027e70429fe327cd42759e3, type: 2}
+  stretchCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  switchCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchSpeed: 1
+  switchSpeed: 1
+  _notifications:
+  - status: 1
+    messageSetting:
+      notificationType: 1
+      notificationLabel: 1
+      TargetAppId: 0
+      message: LOOKING FOR PLAYERS
+      priority: 0
+      keepTime: 3
+      soundInfo: {fileID: 11400000, guid: 6d7ea22b824105a4fbf2a750de209787, type: 2}
+      timerType: 0
+      CurrencyDetails: []
+  - status: 5
+    messageSetting:
+      notificationType: 1
+      notificationLabel: 1
+      TargetAppId: 0
+      message: LOOKING FOR PLAYERS
+      priority: 0
+      keepTime: 3
+      soundInfo: {fileID: 11400000, guid: 6d7ea22b824105a4fbf2a750de209787, type: 2}
+      timerType: 0
+      CurrencyDetails: []
+  - status: 11
+    messageSetting:
+      notificationType: 1
+      notificationLabel: 1
+      TargetAppId: 0
+      message: LOOKING FOR RANKED MATCH
+      priority: 10
+      keepTime: 3
+      soundInfo: {fileID: 11400000, guid: 6dabb11d62c264744a7aa49569e1175d, type: 2}
+      timerType: 2
+      CurrencyDetails: []
+  - status: 12
+    messageSetting:
+      notificationType: 1
+      notificationLabel: 0
+      TargetAppId: 0
+      message: RANKED MATCH SEARCH FAILED
+      priority: 11
+      keepTime: 3
+      soundInfo: {fileID: 0}
+      timerType: 0
+      CurrencyDetails: []
+  - status: 13
+    messageSetting:
+      notificationType: 1
+      notificationLabel: 0
+      TargetAppId: 0
+      message: RANKED MATCH SEARCH CANCELLED
+      priority: 11
+      keepTime: 3
+      soundInfo: {fileID: 0}
+      timerType: 0
+      CurrencyDetails: []

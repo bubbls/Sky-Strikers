@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Player_Orange_Glitch_talk
+  m_Shader: {fileID: 4800000, guid: 2ea1229aab6a7e74d96da263e4894ad5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ENABLE_PASS
+  - _AlphaOn
+  - _NormalOn
+  - _OutlineChangeOn
+  - _PBROn
+  - _RimOn
+  - _RimPartOn
+  - _Shadow1On
+  - _Shadow2On
+  - _ShadowOverrideOn
+  - _SkyboxOn
+  - _SmoothOn
+  - _SpecularOn
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      ENABLE_PASS: 0
+      _AO: 1
+      _AOIntensity: 0.4
+      _AddLights: 0
+      _Alpha: 1
+      _AlphaClip: 0
+      _AlphaCutoff: 0.5
+      _Bake: 0
+      _Blend: 0
+      _BumpScale: 1
+      _CellFrequency: 10
+      _ClearCoatMask: 0
+      _ClearCoatSmoothness: 0
+      _Cull: 2
+      _Cutoff: 0.5
+      _DetailAlbedoMapScale: 1
+      _DetailNormalMapScale: 1
+      _Distance: 1
+      _DstBlend: 0
+      _ENABLE_PASS: 1
+      _Emission: 0
+      _EmissionIntensity: 1
+      _EnvColorIntensity: -0.5
+      _EnvDownInt: 1
+      _EnvSideInt: 1
+      _EnvUpColor: 1
+      _EnvUpInt: 1
+      _EnvironmentReflections: 1
+      _ExtraEmission: 0
+      _FaceLit: 1
+      _Float0: 0
+      _Float1: 0
+      _Float2: 0
+      _Float3: 0
+      _Fog: 0
+      _ForceAO: 0
+      _Gloss: 256
+      _GlossMapScale: 0
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _Gray: 0
+      _GridMaskAdd: 0.19
+      _GridQuantity: 13
+      _HandDrawn: 0
+      _HighIntensity: 2.56
+      _IceIntensity: 1
+      _IceMultiplier: 50
+      _InnerOutline: 0.15
+      _Intensity: 1
+      _LayerEnd: 0.05
+      _Limit: 0.05
+      _Lower: 0.5
+      _Metallic: 1
+      _Mix: 0
+      _NoiseItensity: 0.63
+      _NoiseSpeed: 1
+      _Normal: 1
+      _NormalScale: 0.5
+      _OcclusionStrength: 1
+      _Offset: 0
+      _Outline: 0
+      _OutlineChange: 1
+      _OutlineMax: 0
+      _OutlineMaxDistance: 5
+      _OutlineMinDistance: 3
+      _OutlineSlider: 0.8
+      _OutlineWidth: 9.8
+      _PBR: 1
+      _Parallax: 0.005
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadow: 0
+      _ReceiveShadows: 1
+      _Rim: 1
+      _RimLIghtPower: 5
+      _RimLight: 0
+      _RimLightOffset: 0.3
+      _RimLightStrength: 0.4
+      _RimMultiplier: 1
+      _RimPart: 1
+      _RimShadow: 0
+      _Rotation: 0.15
+      _Roughness: 1
+      _Scale: 1.8
+      _Shadow: 1
+      _Shadow1: 1
+      _Shadow2: 1
+      _ShadowIntensity: 1
+      _ShadowOverride: 1
+      _Skybox: 1
+      _Smooth: 1
+      _Smoothness: 0.5
+      _SmoothnessTextureChannel: 0
+      _SpecView: 0
+      _Specular: 1
+      _Specular1: 0
+      _SpecularHighlights: 1
+      _SpecularIntensity: 2
+      _SpecularIntensity1: 50
+      _SpecularOffset: 0.15
+      _SpecularStrength: 0.75
+      _SrcBlend: 1
+      _Strength: 0.1
+      _Surface: 0
+      _Tangent: 0.66
+      _Team2: 0
+      _Tilling: 1
+      _UVSpeed: 0
+      _Upper: 4.71
+      _Volume: 0.51
+      _VolumeColorSoft: 0.252
+      _VolumeMax: 1
+      _VolumeMin: -0.15
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      _AO: {r: 0, g: 0, b: 0, a: 1}
+      _AOColor: {r: 0, g: 0, b: 0, a: 1}
+      _AwayColor: {r: 1, g: 1, b: 1, a: 1}
+      _BaseColor: {r: 0.10196079, g: 0.06666667, b: 0.10980393, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+      _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0.7265578, b: 0.7490196, a: 1}
+      _EnvDownColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvSideColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvUpColor: {r: 0, g: 0, b: 0, a: 0}
+      _EnvironmentColor: {r: 1, g: 1, b: 1, a: 0}
+      _ExtraEmissionColor1: {r: 1, g: 1, b: 1, a: 1}
+      _ExtraEmissionColor2: {r: 1, g: 1, b: 1, a: 1}
+      _HomeColor: {r: 1, g: 1, b: 1, a: 1}
+      _OutlineColor: {r: 1, g: 0.4745098, b: 0.19215687, a: 1}
+      _RimLightColor: {r: 0.20392157, g: 0.6156863, b: 1, a: 1}
+      _RimLightColor1: {r: 0.043137256, g: 0.5058824, b: 0.99215686, a: 1}
+      _ShadowColor: {r: 0.7424469, g: 0.63171947, b: 0.7924528, a: 1}
+      _SkyboxColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+      _SkyboxOffset: {r: 2, g: 0, b: 0, a: 0}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+      _Team1Color: {r: 0.28235295, g: 0.4862745, b: 0.7176471, a: 0}
+      _Team1Color1: {r: 1, g: 0, b: 0, a: 0}
+      _Team1Color2: {r: 0.8867924, g: 0.38991398, b: 0.012548926, a: 0}
+      _Team1ColorHaight: {r: 0.25882354, g: 0.77254903, b: 0.8392157, a: 1}
+      _Team1ColorHeight: {r: 1, g: 1, b: 1, a: 0}
+      _Team1ColorLow: {r: 0.5188679, g: 0.25214908, b: 0.13461196, a: 1}
+      _Team2Color: {r: 0.74509805, g: 0.3019608, b: 0.08627451, a: 0}
+      _Team2ColorHaight: {r: 0.8, g: 0.58431375, b: 0.1254902, a: 0}
+      _Team2ColorHeight: {r: 1, g: 1, b: 1, a: 0}
+      _Team2ColorLow: {r: 0.28235295, g: 0.4852426, b: 0.7176471, a: 0}
+      _Tilling: {r: 1, g: 4, b: 5, a: 0}
+  m_BuildTextureStacks: []

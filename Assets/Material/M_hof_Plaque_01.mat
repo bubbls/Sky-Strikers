@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_hof_Plaque_01
+  m_Shader: {fileID: 4800000, guid: dc2b41d0ffc5db242add313926f65c03, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _MATCAP_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap_R:
+        m_Texture: {fileID: 2800000, guid: 5d9f8f39d20107946b2d82fd2c087492, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlassTex:
+        m_Texture: {fileID: 2800000, guid: fd2b8a577f494fb44bcfcf51e6ab3d0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalMap:
+        m_Texture: {fileID: 2800000, guid: e209def4e40e2cd40bc5e39dd21e1511, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _BackGroundInt: 0.368
+      _GlassInt: 1
+      _GlassTexScale: 1
+      _GlassTexTiling: 1
+      _MatCap: 1
+      _MatCapIntensity: 1.2
+      _MatCapMip: 1
+      _NormalScale: 1
+      _Offset: 0.215
+      _QueueControl: 0
+      _QueueOffset: 0
+      _SmoothInt: 0.187
+      _Soft: 0.517
+    m_Colors:
+      _BackgroundColor: {r: 0.1037733, g: 0.070213966, b: 0.049439065, a: 0}
+      _BackgroundColor2: {r: 0.07547147, g: 0.037526436, b: 0.021715911, a: 0}
+      _Color0: {r: 0.11320736, g: 0.09077949, b: 0.07956552, a: 0}
+      _Color1: {r: 1, g: 0.85647917, b: 0, a: 1}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _GlassCenter: {r: 0, g: 0, b: 0.5, a: 0}
+      _LightDir: {r: 0.72, g: 1, b: -0.08, a: 0}
+      _MetallicColor: {r: 1, g: 0.8453609, b: 0, a: 0}
+      _MetallicColor2: {r: 0.8773585, g: 0.26386806, b: 0, a: 0}
+  m_BuildTextureStacks: []

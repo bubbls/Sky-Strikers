@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_WramBeamIce
+  m_Shader: {fileID: 4800000, guid: 142bad6ea10b7e54b9fff09653055de8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _CracklesTexture:
+        m_Texture: {fileID: 2800000, guid: 556302e162c22fc46b523a4926414b1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _InnerIceTexture:
+        m_Texture: {fileID: 2800000, guid: f9c318f24a65931468fb011d945f0787, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f84da336b81971d47beae8916c5a1abd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Alpah1: 0.956
+      _Alpha: 0.485
+      _Alpha2: 1
+      _AlphaCutoff: 0.5
+      _BackgroundFresnelPower: 3.07
+      _CracklesNormalSacle: 0.67
+      _CracklesPower: 1.2862414
+      _FresnelAdded: 0.752
+      _FresnelPow: 0.52
+      _FresnelRange: 0.162
+      _FresnelSoft: 0.471
+      _FrontDistort: 1
+      _IcePower: 0.45
+      _IceTransparency: 0.691
+      _InSideDistort: 0.5
+      _InnerIceFrontDistort: 0.5
+      _InnerIceParallaxScale: 0.913
+      _InnerIcePower: 0.45
+      _NormalSacle: 0.24
+      _NormalScale: 1
+      _ParallaxScale: 0.636
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _TessEdgeLength: 16
+      _TessMax: 25
+      _TessMaxDisp: 25
+      _TessMin: 10
+      _TessPhongStrength: 0.5
+      _TessValue: 16
+    m_Colors:
+      _BackgroundColor1: {r: 0.3186631, g: 0.84349823, b: 0.8773585, a: 0}
+      _BackgroundColor2: {r: 0.11569942, g: 0.2029191, b: 0.37735838, a: 0}
+      _BackgroundCrackles: {r: 0.45056045, g: 0.70754707, b: 0.7075471, a: 0}
+      _Color0: {r: 0.25907797, g: 0.45978346, b: 0.7735849, a: 0}
+      _Color1: {r: 0.759434, g: 1, b: 1, a: 0}
+      _CracklesColor: {r: 0.8160377, g: 0.85033417, b: 1, a: 0}
+      _CracklesNormalTiling: {r: 1, g: 1, b: 0, a: 0}
+      _CracklesTiling: {r: 4, g: 1, b: 0, a: 0}
+      _CreacklesColor: {r: 0.8160377, g: 0.85033417, b: 1, a: 0}
+      _CreacklesTiling: {r: 4, g: 1, b: 0, a: 0}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _FresnelColor: {r: 0.7971699, g: 0.9939802, b: 1, a: 1}
+      _FrontTilingOffset: {r: 0.09, g: 0.08, b: 0.37, a: 0.5}
+      _IceHighColor: {r: 0, g: 0.9294119, b: 1, a: 0}
+      _IceHightColor: {r: 0.3999991, g: 0.7722298, b: 1, a: 0}
+      _IceLowColor: {r: 0.13995129, g: 0.17700869, b: 0.34905598, a: 0}
+      _InSideTilingOffset: {r: 0.09, g: 0.08, b: 0.5, a: 0.5}
+      _InnerIceFrontTilingOffset: {r: 0.01, g: 0.06, b: 0.39, a: -0.5}
+      _NormalTiling: {r: 4, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

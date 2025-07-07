@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 330670497, guid: a7c8ed169960a6d09f38393641221f85, type: 3}
+  m_Name: PlayerInput - CreationMode
+  m_EditorClassIdentifier:
+  m_ActionMaps:
+  - m_Name: Creation Mode Placement
+    m_Id: bf797169-e3af-438d-8c77-8158a95566ba
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Move Target
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6906a8b3-272d-4272-98f3-eacfe8d8e375
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Rotate Target
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: e6282eed-69b2-4013-834a-ab8d68de36f9
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Scale Target
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 5d1ab235-47c6-4119-b6ec-52678bc3a4a0
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Save Placeable
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 9353aa8e-82d5-4521-b251-4e5d59a13a22
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Load Placeable
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a5eff8b1-819d-45f4-9f14-bc720dc51471
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: 0b63d327-5391-4f26-91a9-774473b82fb2
+      m_Path: '<XRController>{LeftHand}/secondaryButton'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Scale Target
+      m_Flags: 0
+    - m_Name:
+      m_Id: 755770ab-ba2e-4230-838e-2fb7a6663077
+      m_Path: '<XRController>{RightHand}/gripPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move Target
+      m_Flags: 0
+    - m_Name:
+      m_Id: e5ade3c6-6045-43d1-bd6a-0a1dd902b141
+      m_Path: '<XRController>{RightHand}/triggerPressed'
+      m_Interactions: Press(behavior=1)
+      m_Processors:
+      m_Groups:
+      m_Action: Rotate Target
+      m_Flags: 0
+    - m_Name:
+      m_Id: 33f5ead1-e604-4b0b-be56-66a36061c7b9
+      m_Path: '<XRController>{RightHand}/primaryButton'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Save Placeable
+      m_Flags: 0
+    - m_Name:
+      m_Id: 80421d23-f808-40c5-bfbb-f882bb61abfc
+      m_Path: '<XRController>{RightHand}/secondaryButton'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Load Placeable
+      m_Flags: 0
+  - m_Name: Creation Mode Locomotion
+    m_Id: 920a7436-5a02-4bf1-b216-c83bcd417163
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Move along eye sight plane
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 158e1462-86b8-4e4f-863c-dc0f39c226e4
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Move fast
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: d865b5fd-5a88-4ab9-aedc-cc4cadcc4978
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Snap turn, up and down
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 3f028906-1556-4189-b3f9-994ad412a03c
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    m_Bindings:
+    - m_Name:
+      m_Id: f058b1c6-13c1-4995-80f4-0cc1601ba18f
+      m_Path: '<XRController>{LeftHand}/primary2DAxis'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move along eye sight plane
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: 15f7f0f3-a4d2-4c46-ad21-0b2e9092fe66
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move along eye sight plane
+      m_Flags: 4
+    - m_Name: Up
+      m_Id: 596eb4b9-fd0a-4b5c-9689-53756785b712
+      m_Path: '<Keyboard>/u'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move along eye sight plane
+      m_Flags: 8
+    - m_Name: Down
+      m_Id: 572d696e-7a0e-4517-a5b7-4be97cc030c2
+      m_Path: '<Keyboard>/j'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move along eye sight plane
+      m_Flags: 8
+    - m_Name: Left
+      m_Id: ff72790f-e557-41ed-9176-e8adf2c85dde
+      m_Path: '<Keyboard>/h'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move along eye sight plane
+      m_Flags: 8
+    - m_Name: Right
+      m_Id: 4b684f1d-d2ee-4914-b566-1abf7de0c630
+      m_Path: '<Keyboard>/k'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move along eye sight plane
+      m_Flags: 8
+    - m_Name:
+      m_Id: c13aeb4f-e124-46e8-91af-47c36daaa06f
+      m_Path: '<XRController>{LeftHand}/gripPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move fast
+      m_Flags: 0
+    - m_Name:
+      m_Id: 5b361f75-127f-44fe-be9d-d667941f0b4a
+      m_Path: '<Keyboard>/space'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move fast
+      m_Flags: 0
+    - m_Name:
+      m_Id: 8b2437d5-84d8-4e5d-a870-bd280002339f
+      m_Path: '<XRController>{RightHand}/primary2DAxis'
+      m_Interactions:
+      m_Processors: StickDeadzone(min=0.5)
+      m_Groups:
+      m_Action: Snap turn, up and down
+      m_Flags: 0
+  m_ControlSchemes: []
+  m_IsProjectWide: 0

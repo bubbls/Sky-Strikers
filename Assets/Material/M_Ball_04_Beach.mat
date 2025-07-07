@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Ball_04_Beach
+  m_Shader: {fileID: 4800000, guid: d88cc149e670c6e4fbc1abe0cb6ab3cc, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _MATCAPON_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 18a5e45fd295bed4681891e5526916b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MatCap:
+        m_Texture: {fileID: 2800000, guid: e5692c8326e2e03489bb1443a40483fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaAdd: 0
+      _AlphaCutoff: 0.5
+      _DistanceMax: 60
+      _DistanceMin: 10
+      _EmissionInt: 0
+      _EmissionRange: 1
+      _EmissionSoft: 0.1
+      _Float0: 0.582
+      _Float1: 0.283
+      _Float2: 0.701
+      _FresnelBias: 0.155
+      _FresnelBias_Opacity: 0.474
+      _FresnelPow: 4.45
+      _Intensity: 0
+      _MaskTexSoft: 0.236
+      _MatCapIntensity: 0.34
+      _MatCapMip: 0
+      _MatCapOn: 1
+      _Opacity: 0
+      _OutlineMax: 0.07
+      _OutlineMin: 0.02
+      _OutlineOff: 0
+      _Push: 0
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ShadowRange: 0
+      _ShadowSoft: 0.553
+      _TessEdgeLength: 16
+      _TessMax: 25
+      _TessMaxDisp: 25
+      _TessMin: 10
+      _TessPhongStrength: 0.5
+      _TessValue: 16
+      _VertexOffset: 0
+    m_Colors:
+      _EmissionColor: {r: 1, g: 0.4930899, b: 0, a: 1}
+      _MaskColor: {r: 0, g: 0.9894492, b: 1, a: 1}
+      _OutllineColor: {r: 1, g: 1, b: 1, a: 0}
+      _ShadowColor: {r: 0.18516362, g: 0.2034002, b: 0.53773564, a: 0.7529412}
+      _TilingSpeed: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

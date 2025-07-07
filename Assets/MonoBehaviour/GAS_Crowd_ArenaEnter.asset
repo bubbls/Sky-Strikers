@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: GAS_Crowd_ArenaEnter
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: 223f644cd2a3f8e489731850996888e3, type: 3}
+  - {fileID: 8300000, guid: a4097295dc762b0429bd8be15ac5ae8d, type: 3}
+  - {fileID: 8300000, guid: 1a51845b81042d64e8e601d107baafad, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 1
+  VolumeHigh: 1
+  Loop: 1
+  AudioSource: {fileID: 82583742264749920, guid: e10da56dde13531418bb55ce91a78fb4, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: -1

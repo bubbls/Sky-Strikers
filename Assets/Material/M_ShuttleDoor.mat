@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_ShuttleDoor
+  m_Shader: {fileID: 4800000, guid: 3a2689e38aeadcd4e8e59b7046b1e53b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Box:
+        m_Texture: {fileID: 2800000, guid: 348f87f3e3a78ab47bfb08347e00042a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 570287b8d033722498b6418f8a12c0b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Alpha: 0.8
+      _AlphaCutoff: 0.5
+      _BoxSpeed: 0.5
+      _Float1: 3
+      _FresnelPower: 0.9
+      _Offset: 0.48
+      _Offset2: -0.242
+      _QueueControl: 0
+      _QueueOffset: 0
+      _Speed: 1
+      _Tiling: 20
+      _Tilingttt: 2
+    m_Colors:
+      _Color0: {r: 0, g: 0.7025196, b: 0.7264151, a: 0}
+      _Color1: {r: 0.6179245, g: 1, b: 0.9851915, a: 0}
+      _DoorColor: {r: 0.29019603, g: 0.8078432, b: 0.8196079, a: 0.7058824}
+      _DoorPatternColor: {r: 0.36391956, g: 0.8867924, b: 0.8572754, a: 1}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _FresnelBiasScalePower: {r: 0, g: 1, b: 2.5, a: 0}
+      _FresnelColor: {r: 0.36320752, g: 0.98717886, b: 1, a: 0}
+      _TilingSpeed: {r: 1, g: 1, b: 0, a: 2.91}
+  m_BuildTextureStacks: []

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1503193282, guid: 0b38bdf3d9767e3616d8aface4925754, type: 3}
+  m_Name: InternalSettings
+  m_EditorClassIdentifier:
+  m_standardDrawers:
+  - {fileID: 114060903015844476, guid: 059c95b8b7dfaf549bfb7c6f92ad0611, type: 2}
+  - {fileID: 114767013000806153, guid: d66c3803003c8a14694ea8a418ca2b92, type: 2}
+  - {fileID: 114025477496274975, guid: 20429b21be229934496000450c35fdcd, type: 2}
+  - {fileID: 114480067583071042, guid: d444ddfd26c06424bb423c24564786f9, type: 2}
+  - {fileID: 114268731271372626, guid: baa6213fb3b00d34ea062da96754fa28, type: 2}
+  - {fileID: 114460328541607932, guid: 092a0ee24d957ce4fb286f4a0ebd72e5, type: 2}
+  - {fileID: 114828219700926459, guid: a340016a920bdb2429527fa8d4f58287, type: 2}
+  - {fileID: 114938667157604148, guid: 6bf73871a8b63a54eac1b09bc6240af0, type: 2}
+  - {fileID: 114062539251903009, guid: 18df10aef541f7a43b43e77b3d14d90f, type: 2}
+  - {fileID: 114530579750571066, guid: 844273e26f474324dbab2b5efe3509e5, type: 2}
+  - {fileID: 114181544355396864, guid: 6e3b0e0fad5b720469b9e9a93b83801f, type: 2}
+  - {fileID: 114990543662120592, guid: 19ab3bbbe17dfa1498f5af409a86787c, type: 2}
+  - {fileID: 114977858743723148, guid: 3a8f92fddc876d248bafe9930ea3c5b0, type: 2}
+  - {fileID: 114211563953985824, guid: d1e290f1f480a1c47b42d97065ab29ae, type: 2}
+  - {fileID: 114514938959052690, guid: 278b395093436974b95bded19bfd0eb3, type: 2}
+  - {fileID: 114852812405505641, guid: a6e75bcf8b0e582479627d28f625f8bd, type: 2}
+  m_referenceDrawers:
+  - {fileID: 114960698610054639, guid: 0974e8947620f904fae5540862f94cfe, type: 2}
+  - {fileID: 114244776023675278, guid: e9ed4cfa24f38cb4781925f9c178db93, type: 2}
+  m_hiddenVariables:
+  - m_type: Object
+    m_variables:
+    - hideFlags
+    - useGUILayout
+    - runInEditMode
+    - m_CachedPtr
+    - m_InstanceID
+    - m_UnityRuntimeErrorString
+  - m_type: Renderer
+    m_variables:
+    - material
+    - materials
+  - m_type: MeshFilter
+    m_variables:
+    - mesh
+  - m_type: Transform
+    m_variables:
+    - '*'
+  - m_type: Component
+    m_variables:
+    - name
+    - tag
+  - m_type: Collider
+    m_variables:
+    - material
+  - m_type: Collider2D
+    m_variables:
+    - material
+  - m_type: CanvasRenderer
+    m_variables:
+    - '*'
+  - m_type: Animator
+    m_variables:
+    - bodyPosition
+    - bodyRotation
+    - playbackTime
+  m_exposedVariables:
+  - m_type: Transform
+    m_variables:
+    - localPosition
+    - localEulerAngles
+    - localScale

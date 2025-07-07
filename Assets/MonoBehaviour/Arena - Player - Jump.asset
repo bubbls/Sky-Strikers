@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 425053930, guid: c6030efd2dcadd20e507fea1ed297da8, type: 3}
+  m_Name: Arena - Player - Jump
+  m_EditorClassIdentifier:
+  Clips:
+  - {fileID: 8300000, guid: 7aeaad39acb6b9f42b8ac1601f7ec724, type: 3}
+  - {fileID: 8300000, guid: 7bd66a268cd5f5d41b5634925ec81492, type: 3}
+  - {fileID: 8300000, guid: e3e0134b3871ebe4ea6fd84e12b3f9dc, type: 3}
+  - {fileID: 8300000, guid: 7ace217345617ae47aebc3e8eb86b2d1, type: 3}
+  - {fileID: 8300000, guid: ab5dacfca9fd9d543b0c250165808c08, type: 3}
+  - {fileID: 8300000, guid: d932d9d69b00f5c48a6997f0b03ce971, type: 3}
+  - {fileID: 8300000, guid: 02264e66092b9d24e9c17a22ce2526ff, type: 3}
+  PitchLow: 1
+  PitchHigh: 1
+  VolumeLow: 1
+  VolumeHigh: 1
+  Loop: 0
+  AudioSource: {fileID: 82339244704590668, guid: 9a979498a86c67c4985dd479d183bfcd, type: 2}
+  FadeOutTime: 0.2
+  MaxInstances: -1

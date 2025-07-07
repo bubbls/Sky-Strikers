@@ -1,0 +1,920 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 330670497, guid: a7c8ed169960a6d09f38393641221f85, type: 3}
+  m_Name: PlayerInput - GameModeInteractions
+  m_EditorClassIdentifier:
+  m_ActionMaps:
+  - m_Name: Interactions
+    m_Id: bf797169-e3af-438d-8c77-8158a95566ba
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Left Squeeze
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 6906a8b3-272d-4272-98f3-eacfe8d8e375
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Left Grab
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 5d1ab235-47c6-4119-b6ec-52678bc3a4a0
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Left Primary Button
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 9b80aa96-0f19-4239-a82f-27554d9b851e
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Left Secondary Button
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: b81dcc2a-72ef-4b6e-bfb7-01ee51428ea7
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Left Velocity
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: b28bb0a1-bb34-4045-b69d-b2cc112d952d
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Left Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: d8e1e854-921b-4891-999f-8f719c0ec8e7
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Right Squeeze
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 570153f0-30af-43c2-883d-06a64aa02fb6
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Right Grab
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 94bd823d-896c-47d9-940e-340e01827da3
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Right Primary Button
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 0a4c8c0e-5147-4ca3-ada1-9d15803e08c0
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Right Secondary Button
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: ef79023b-a3c3-4e31-bab7-c4632d80b80f
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Right Velocity
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: a67621ec-9202-497e-9a20-7dc617b49791
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Right Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: eb5c66dd-c7f8-427f-9e58-2fc9164ea08f
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Menu
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: cd10b6cf-82f8-47c8-b118-cef24738a3eb
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: 0b63d327-5391-4f26-91a9-774473b82fb2
+      m_Path: '<XRController>{LeftHand}/gripPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Grab
+      m_Flags: 0
+    - m_Name:
+      m_Id: 755770ab-ba2e-4230-838e-2fb7a6663077
+      m_Path: '<XRController>{LeftHand}/triggerPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Squeeze
+      m_Flags: 0
+    - m_Name:
+      m_Id: 3098ba15-aeb0-4aee-a556-c384f7af1a2b
+      m_Path: '<XRController>{RightHand}/triggerPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Squeeze
+      m_Flags: 0
+    - m_Name:
+      m_Id: 23b176cd-5134-4fb0-9165-7f1688c9c394
+      m_Path: '<XRController>{RightHand}/gripPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Grab
+      m_Flags: 0
+    - m_Name:
+      m_Id: 54c45b10-961b-4e74-9372-94485b44ce4b
+      m_Path: '<XRController>{RightHand}/secondaryButton'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Secondary Button
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9405bae8-f6ed-48c7-a89f-ad653fc8c05d
+      m_Path: '<XRController>{RightHand}/primaryButton'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Primary Button
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9db38293-0e56-470a-9162-3e7198ac855d
+      m_Path: '<XRController>{RightHand}/deviceVelocity'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Velocity
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7c5e1b68-9197-463b-b88e-4ab947be39fb
+      m_Path: '<XRController>{LeftHand}/deviceVelocity'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Velocity
+      m_Flags: 0
+    - m_Name:
+      m_Id: 296314f7-c523-4747-aba0-54adfeb870c5
+      m_Path: '<XRController>{LeftHand}/primaryButton'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Primary Button
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7c10f595-4da9-421f-8d3d-f5a0a7c1c013
+      m_Path: '<XRController>{LeftHand}/secondaryButton'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Secondary Button
+      m_Flags: 0
+    - m_Name:
+      m_Id: f5105020-f327-4f59-b962-94c3e33e273d
+      m_Path: '<XRController>{LeftHand}/devicePosition'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Position
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7f9ffe11-dc2a-459a-ba79-159202fc57e8
+      m_Path: '<XRController>{RightHand}/devicePosition'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Position
+      m_Flags: 0
+    - m_Name:
+      m_Id: a267eaae-af74-4d88-958f-9b7faef8dedc
+      m_Path: '<Keyboard>/tab'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Menu
+      m_Flags: 0
+    - m_Name:
+      m_Id: 57ec533c-5ff6-4af2-9a2a-cf0d9de3470b
+      m_Path: '<XRController>/{MenuButton}'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Menu
+      m_Flags: 0
+    - m_Name:
+      m_Id: 2267e50e-c423-4e96-ac8e-7e2bef419415
+      m_Path: '<ValveIndexController>{LeftHand}/systemTouched'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Menu
+      m_Flags: 0
+    - m_Name:
+      m_Id: 44e4bcc3-f6f4-48f6-89a3-f7dab75a742a
+      m_Path: '<ValveIndexController>{RightHand}/systemTouched'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Menu
+      m_Flags: 0
+    - m_Name:
+      m_Id: 5efecbbb-2fab-4dd9-9a4c-2cc9f0c33732
+      m_Path: '<XRController>{LeftHand}/{SecondaryButton}'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Menu
+      m_Flags: 0
+  - m_Name: Locomotion
+    m_Id: 920a7436-5a02-4bf1-b216-c83bcd417163
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Snapturn - Left Controller
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 158e1462-86b8-4e4f-863c-dc0f39c226e4
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Snapturn - Right Controller
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 391253bc-2e9e-4f95-ac28-1e4975d0c242
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: RotateHandUp
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a44d5097-b5bb-4753-95c5-7cfe67d59b02
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: RotateHandDown
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: e3924110-a97f-40d0-a1a0-d511ea4ff284
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Jump
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 20378afb-dab7-4879-b139-4f21ab164f17
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: f058b1c6-13c1-4995-80f4-0cc1601ba18f
+      m_Path: '<XRController>{LeftHand}/primary2DAxis'
+      m_Interactions:
+      m_Processors: StickDeadzone(min=0.5)
+      m_Groups:
+      m_Action: Snapturn - Left Controller
+      m_Flags: 0
+    - m_Name:
+      m_Id: 99d42ee1-83d1-4d83-a5b3-51dc3820e51a
+      m_Path: '<XRController>{RightHand}/primary2DAxis'
+      m_Interactions:
+      m_Processors: StickDeadzone(min=0.5)
+      m_Groups:
+      m_Action: Snapturn - Right Controller
+      m_Flags: 0
+    - m_Name:
+      m_Id: 6a1053b8-22ef-4bf6-8861-8e080aa91c6d
+      m_Path: '<Keyboard>/upArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: RotateHandUp
+      m_Flags: 0
+    - m_Name:
+      m_Id: 513de109-fa21-4769-8f70-913e31f8a1e3
+      m_Path: '<Keyboard>/downArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: RotateHandDown
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7c126054-e1c7-4fe2-a665-2e26bc52cf2f
+      m_Path: '<Keyboard>/space'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Jump
+      m_Flags: 0
+  - m_Name: PCCamera
+    m_Id: 28d7d831-95ef-4334-9f6a-e8b8bce0dc91
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: EnableFirstPerson(Keyboard)
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 9640682a-3912-4005-b4e3-7cb3d1de4d33
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: EnableFreeCam(Keyboard)
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 5f0a2fd3-2460-49bc-b4cd-b2e88a736268
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: EnableThirdPerson(Keyboard)
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: dfccb2bc-279b-4ef6-a2b5-e912fa256be7
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: FreeCamMove
+      m_Type: 0
+      m_ExpectedControlType:
+      m_Id: 1420d2fa-08dc-4f80-8b99-1193d848ee39
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamRotate
+      m_Type: 0
+      m_ExpectedControlType:
+      m_Id: 2193a296-825d-47c0-ad45-2ebf7dccd3af
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamRotateFlipped
+      m_Type: 0
+      m_ExpectedControlType: Stick
+      m_Id: 81385f31-355b-4432-a8f0-81187684c988
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamRotateHeightLocked
+      m_Type: 0
+      m_ExpectedControlType: Stick
+      m_Id: dcd97dd4-e2fc-4db2-ad3f-94c0c02d9344
+      m_Processors: ScaleVector2(y=0)
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamRotateHeightLockedFlipped
+      m_Type: 0
+      m_ExpectedControlType: Stick
+      m_Id: 566197e5-bc44-4c94-9304-340688754cc4
+      m_Processors: ScaleVector2(y=0)
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamZoom
+      m_Type: 0
+      m_ExpectedControlType: Analog
+      m_Id: f2fde0fd-703e-4a6e-8827-2567efd81c56
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamZoomFlipped
+      m_Type: 0
+      m_ExpectedControlType: Analog
+      m_Id: b89430ff-3095-43a2-8cc5-63961709c228
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamToggleCollision
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a1ed9af8-eecd-4724-8da3-e2c97ce9163f
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamAscend
+      m_Type: 0
+      m_ExpectedControlType: Analog
+      m_Id: 51236d09-5a49-45bc-ab88-9515264f177d
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamDescend
+      m_Type: 0
+      m_ExpectedControlType: Analog
+      m_Id: b93c5046-d54e-43e9-bd25-de4b39bad5b4
+      m_Processors: Scale(factor=-1)
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamLockHeightToggle
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6ce90b1f-539d-44b5-915d-5ce16da8061d
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: FreeCamToggleLocalPlayer
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 9191f9ac-7d0a-45bf-a381-0d5b6e94460a
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: FreeCamToggleMenu
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 0a2e2c7f-b10e-4c2a-801c-6dbd6e9a0bfe
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: ResetFreeLookCamera
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 8007bc5a-7f47-4868-906f-36fffc64bee9
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: ChangeToNextCamera
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 79bee89d-174e-4992-804b-d02cadff21ac
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: ChangeToPreviousCamera
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 9309e7f8-b7f1-4d24-accb-8d2b3e406ee3
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: FreeCamNextTarget
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: c6049872-adee-45d0-aeb5-ad829d2aa199
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: FreeCamPrevTarget
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: c6fc58fc-46a6-4f16-849f-8e7b68cb71cd
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: 935eb1d7-998d-4f0d-a2d3-f00c0be9c4b9
+      m_Path: '<Keyboard>/1'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: EnableFirstPerson(Keyboard)
+      m_Flags: 0
+    - m_Name:
+      m_Id: 0be77df9-b8e7-40cc-b773-be553c40832e
+      m_Path: '<Gamepad>/leftStick'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamMove
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: 7d539ba9-6f73-4e8c-b2bb-70e7b898f8b6
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamMove
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 396f5b84-da52-4227-8c31-21275af61f2c
+      m_Path: '<Keyboard>/w'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamMove
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 70fb9ad1-a984-403b-8e20-bdaea7fba92e
+      m_Path: '<Keyboard>/s'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamMove
+      m_Flags: 8
+    - m_Name: left
+      m_Id: b1a4d6bc-11e7-42aa-98be-b744807bc70d
+      m_Path: '<Keyboard>/a'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamMove
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 365bc315-2c5d-460f-ae82-ac2cd8c807d0
+      m_Path: '<Keyboard>/d'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamMove
+      m_Flags: 8
+    - m_Name:
+      m_Id: 18a49ff1-ab2c-445b-a432-f38ab634f416
+      m_Path: '<Keyboard>/2'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: EnableFreeCam(Keyboard)
+      m_Flags: 0
+    - m_Name:
+      m_Id: 470387cd-d69a-48f9-97ae-ce8c6bb14755
+      m_Path: '<Keyboard>/3'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: EnableThirdPerson(Keyboard)
+      m_Flags: 0
+    - m_Name:
+      m_Id: a8eac27b-2962-40f9-a02e-f8ec3e5ffa61
+      m_Path: '<Keyboard>/t'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: ResetFreeLookCamera
+      m_Flags: 0
+    - m_Name:
+      m_Id: 149495fd-3b65-4d69-ad83-90a36b725098
+      m_Path: '<Gamepad>/select'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: ResetFreeLookCamera
+      m_Flags: 0
+    - m_Name:
+      m_Id: a55dd97d-aa50-474d-af8b-720c93d5437b
+      m_Path: '<Pointer>/delta'
+      m_Interactions:
+      m_Processors: ScaleVector2(x=0.02,y=0.02)
+      m_Groups:
+      m_Action: FreeCamRotate
+      m_Flags: 0
+    - m_Name:
+      m_Id: 80f94fdc-605c-411d-a2f7-03839055d280
+      m_Path: '<Gamepad>/rightStick'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamRotate
+      m_Flags: 0
+    - m_Name:
+      m_Id: ae9ec69f-3673-4347-9167-c961b06939d4
+      m_Path: '<Keyboard>/tab'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamToggleCollision
+      m_Flags: 0
+    - m_Name:
+      m_Id: cd35fc21-8c9b-4221-b5bb-5f9043732f76
+      m_Path: '<Gamepad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamToggleCollision
+      m_Flags: 0
+    - m_Name:
+      m_Id: bb34157e-980b-4718-a13f-20e8c9a987f9
+      m_Path: '<Gamepad>/dpad/down'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: ChangeToNextCamera
+      m_Flags: 0
+    - m_Name:
+      m_Id: d02feca8-9e5e-4e08-b671-91c6ccc99e61
+      m_Path: '<Keyboard>/pageDown'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: ChangeToNextCamera
+      m_Flags: 0
+    - m_Name:
+      m_Id: cdda4771-3418-4178-af0d-19aa539b4eae
+      m_Path: '<Gamepad>/dpad/up'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: ChangeToPreviousCamera
+      m_Flags: 0
+    - m_Name:
+      m_Id: c90aebbd-0340-476f-86b3-674c7eb49980
+      m_Path: '<Keyboard>/pageUp'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: ChangeToPreviousCamera
+      m_Flags: 0
+    - m_Name:
+      m_Id: 1662dee1-4587-4a2b-8da0-2a1a4f238879
+      m_Path: '<Keyboard>/q'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamAscend
+      m_Flags: 0
+    - m_Name:
+      m_Id: 262740c7-3915-4e3b-930c-37dd69035b0f
+      m_Path: '<Gamepad>/rightTrigger'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamAscend
+      m_Flags: 0
+    - m_Name:
+      m_Id: 44a52858-f89e-4569-ba40-b25e3602a2b9
+      m_Path: '<Keyboard>/e'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamDescend
+      m_Flags: 0
+    - m_Name:
+      m_Id: 1808e712-9ba2-4231-9a1c-6a5c7b948978
+      m_Path: '<Gamepad>/leftTrigger'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamDescend
+      m_Flags: 0
+    - m_Name:
+      m_Id: 32b2aeff-f908-4e74-bd45-e1aef700df27
+      m_Path: '<Gamepad>/buttonWest'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamLockHeightToggle
+      m_Flags: 0
+    - m_Name:
+      m_Id: d52ac9ef-f58c-4cea-9816-07e8fee1c05a
+      m_Path: '<Keyboard>/capsLock'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamLockHeightToggle
+      m_Flags: 0
+    - m_Name:
+      m_Id: e2913824-57e4-4b19-a267-6e686ae311be
+      m_Path: '<Gamepad>/buttonNorth'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamToggleLocalPlayer
+      m_Flags: 0
+    - m_Name:
+      m_Id: 55c94835-d692-4f92-9ea2-9a8f3cdf022e
+      m_Path: '<Keyboard>/backspace'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamToggleLocalPlayer
+      m_Flags: 0
+    - m_Name:
+      m_Id: 14f8b2f7-a389-4459-ac0f-84bf4685bb22
+      m_Path: '<Keyboard>/r'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamToggleMenu
+      m_Flags: 0
+    - m_Name:
+      m_Id: ae3f5bc2-6db1-4440-8bf2-15a3c4de968a
+      m_Path: '<Gamepad>/start'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamToggleMenu
+      m_Flags: 0
+    - m_Name:
+      m_Id: 997f5b2e-f69b-4482-a05f-68238024c46c
+      m_Path: '<Gamepad>/dpad/right'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamNextTarget
+      m_Flags: 0
+    - m_Name:
+      m_Id: 25262ff0-699e-410b-ab08-a28e9fdf6f4a
+      m_Path: '<Keyboard>/equals'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamNextTarget
+      m_Flags: 0
+    - m_Name:
+      m_Id: 0aed3d0d-364a-4bf3-b1c9-ae35b607c896
+      m_Path: '<Gamepad>/dpad/left'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamPrevTarget
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9239988a-b247-45cf-aa73-13d10d830c8d
+      m_Path: '<Keyboard>/minus'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamPrevTarget
+      m_Flags: 0
+    - m_Name:
+      m_Id: 2b9411f2-0185-48f7-929c-ad6cbc63333d
+      m_Path: '<Pointer>/delta'
+      m_Interactions:
+      m_Processors: ScaleVector2(x=0.02,y=0.02)
+      m_Groups:
+      m_Action: FreeCamRotateHeightLocked
+      m_Flags: 0
+    - m_Name:
+      m_Id: 5eea4bd6-a61d-44de-97ca-09d300fc208e
+      m_Path: '<Gamepad>/rightStick'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamRotateHeightLocked
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9e92d579-6ba9-4b0d-a8cb-de9f78ce1948
+      m_Path: '<Pointer>/delta'
+      m_Interactions:
+      m_Processors: ScaleVector2(x=0.02,y=0.02)
+      m_Groups:
+      m_Action: FreeCamRotateFlipped
+      m_Flags: 0
+    - m_Name:
+      m_Id: b96879df-2ca3-4b45-bd55-cce00601c1c7
+      m_Path: '<Gamepad>/leftStick'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamRotateFlipped
+      m_Flags: 0
+    - m_Name:
+      m_Id: e5e6f327-027f-4493-a599-c25867b1757d
+      m_Path: '<Pointer>/delta'
+      m_Interactions:
+      m_Processors: ScaleVector2(x=0.02,y=0.02)
+      m_Groups:
+      m_Action: FreeCamRotateHeightLockedFlipped
+      m_Flags: 0
+    - m_Name:
+      m_Id: bdb41d39-a0a8-4f59-a4ae-5540341f4d66
+      m_Path: '<Gamepad>/leftStick'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamRotateHeightLockedFlipped
+      m_Flags: 0
+    - m_Name: 1D Axis
+      m_Id: 996ac8a1-7412-4246-8c13-3ab1e392a9fe
+      m_Path: 1DAxis
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoom
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: c8c3e7a3-9b9c-4705-bc9e-259698fb7312
+      m_Path: '<Keyboard>/s'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoom
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: 7c40bfef-1170-43cb-883a-d079937ea49b
+      m_Path: '<Keyboard>/w'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoom
+      m_Flags: 8
+    - m_Name:
+      m_Id: daace9c1-a2f9-43d2-81e7-5318656ca75e
+      m_Path: '<Gamepad>/leftStick/y'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoom
+      m_Flags: 0
+    - m_Name:
+      m_Id: 6183ff9a-16b5-4b3f-86ea-9401941689ea
+      m_Path: '<Mouse>/scroll/y'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoom
+      m_Flags: 0
+    - m_Name:
+      m_Id: 6d80b964-278b-471b-80ec-3838388a43a6
+      m_Path:
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoom
+      m_Flags: 0
+    - m_Name: 1D Axis
+      m_Id: f70f3f7a-06bd-4b1e-b038-3060937a2702
+      m_Path: 1DAxis
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoomFlipped
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: 1be6fde1-19ff-472d-b54d-6f8b76916aa2
+      m_Path: '<Keyboard>/s'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoomFlipped
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: f44006e0-1629-41b9-ac34-898f8bc74796
+      m_Path: '<Keyboard>/w'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoomFlipped
+      m_Flags: 8
+    - m_Name:
+      m_Id: 193c1acc-2507-4d84-96ec-9603ae03e7ea
+      m_Path: '<Gamepad>/rightStick/y'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoomFlipped
+      m_Flags: 0
+    - m_Name:
+      m_Id: 6bd27256-26e2-4e8d-b3de-1a9f542a4346
+      m_Path: '<Mouse>/scroll/y'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: FreeCamZoomFlipped
+      m_Flags: 0
+  m_ControlSchemes: []
+  m_IsProjectWide: 0

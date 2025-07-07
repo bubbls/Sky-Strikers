@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 330670497, guid: a7c8ed169960a6d09f38393641221f85, type: 3}
+  m_Name: ConsoleInputActions
+  m_EditorClassIdentifier:
+  m_ActionMaps:
+  - m_Name: Console Input Map
+    m_Id: 61a893b7-e19b-4a17-920b-3cbfa746ec98
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Left Trigger
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 9c8107e8-3dda-42ee-b006-ffe606c2818d
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Right Trigger
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a9619733-72dc-404b-bedc-087cb76a53af
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Left Grip
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 2593350f-c104-445d-883f-82eb877a9e17
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Right Grip
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6ccf8fd1-3d2f-473f-a70f-79a042feb8b6
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Toggle Runtime Inspector
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 873c6c9d-d2c8-4c03-baa4-06e7d70eb064
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: af7c19f3-8bf1-45a1-8af3-dd4353168455
+      m_Path: '<PXR_Controller>{LeftHand}/triggerTouched'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Trigger
+      m_Flags: 0
+    - m_Name:
+      m_Id: dcc3a456-ab42-498d-9220-3406d1a6e6ad
+      m_Path: '<SimulatorXRController>{LeftHand}/triggerPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Trigger
+      m_Flags: 0
+    - m_Name:
+      m_Id: 54355e0e-75bd-474d-b39e-f1aeb6c1c212
+      m_Path: '<PXR_Controller>{RightHand}/triggerTouched'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Trigger
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7a982504-90d4-4f85-95b7-3c88f40226aa
+      m_Path: '<SimulatorXRController>{RightHand}/triggerPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Trigger
+      m_Flags: 0
+    - m_Name:
+      m_Id: cdb8c4e8-131b-44e8-8b75-7666b13cb654
+      m_Path: '<PXR_Controller>{LeftHand}/gripPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Grip
+      m_Flags: 0
+    - m_Name:
+      m_Id: d6f05528-112a-4719-89fa-376845153bd6
+      m_Path: '<SimulatorXRController>{LeftHand}/gripPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Left Grip
+      m_Flags: 0
+    - m_Name:
+      m_Id: e22290ba-fa28-45d5-a529-ae05a99c33ec
+      m_Path: '<PXR_Controller>{RightHand}/gripPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Grip
+      m_Flags: 0
+    - m_Name:
+      m_Id: d21e6b4a-12eb-4bf0-8740-97de0dc06645
+      m_Path: '<SimulatorXRController>{RightHand}/gripPressed'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Right Grip
+      m_Flags: 0
+    - m_Name:
+      m_Id: f68437e7-7443-4021-aca6-c406c738dd01
+      m_Path: '<PXR_Controller>{LeftHand}/menu'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Toggle Runtime Inspector
+      m_Flags: 0
+    - m_Name:
+      m_Id: db87944e-cf8e-48da-836d-5eacf6e6b020
+      m_Path: '<OculusTouchController>{LeftHand}/start'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Toggle Runtime Inspector
+      m_Flags: 0
+  m_ControlSchemes: []
+  m_IsProjectWide: 0

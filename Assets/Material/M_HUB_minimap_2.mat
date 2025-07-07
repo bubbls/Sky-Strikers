@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_HUB_minimap_2
+  m_Shader: {fileID: 4800000, guid: 665023e966e845a468e32a0012948415, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaAdd: 0.654
+      _AlphaClip: 0
+      _AlphaCutoff: 0.5
+      _AlphaToMask: 0
+      _Blend: 2
+      _BlendOp: 0
+      _CaveOffset: 0
+      _CaveSoft: 1
+      _Cull: 2
+      _Cutoff: 0.5
+      _DisturbanceFrequency: 1
+      _DisturbanceSpeed: -0.2
+      _DisturbanceWidth: 0.99
+      _DstBlend: 1
+      _DstBlendAlpha: 1
+      _Float1: 0
+      _Float2: 0
+      _Float3: 0
+      _Float4: 0
+      _Float5: 0
+      _FresnelBias: 1
+      _FresnelPow: 0.66
+      _FresnelPower: 2.22
+      _FresnelScale: 1
+      _MatCapIntensity: 1.2
+      _MatCapMip: 1
+      _Opacity: -0.65
+      _PlaneWaveFrequency: 20
+      _PlaneWaveRange: 0.5058827
+      _PlaneWaveSoft: 0.3999996
+      _PlaneWaveSpeed: 1
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _RimLightStrength: 1
+      _SampleGI: 0
+      _Scanline2Alpha: 1
+      _ScanlineFreq: 14.2
+      _ScanlineFreq2: 1
+      _ScanlineIntensity: 0.2
+      _ScanlineSpeed: 0
+      _ScanlineSpeed2: -0.5
+      _ScanlineWidth: 0.9
+      _SimplifiedOn: 0
+      _SkyboxMip: 1
+      _SpaceDeep: 0
+      _SpaceFarAwayOffset: 0
+      _SpaceFarAwaySoft: 0
+      _SpaceSpeed: 1
+      _SpaceTexMip: 0
+      _SrcBlend: 5
+      _SrcBlendAlpha: 1
+      _Surface: 1
+      _UpDownSpeed: 0
+      _ZWrite: 0
+      _ZWriteMode: 1
+    m_Colors:
+      _BackColor: {r: 0.8878849, g: 0.8962264, b: 0.27478638, a: 0}
+      _BackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+      _BaseColor: {r: 0.81429446, g: 0.8301887, b: 0.019579919, a: 1}
+      _CavePosition: {r: 0, g: 0, b: 0, a: 0}
+      _Color: {r: 0.81429446, g: 0.8301887, b: 0.019579919, a: 1}
+      _DisturbanceDirection: {r: 0.5, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _Fresnel: {r: 0, g: 1, b: 5, a: 0}
+      _FresnelColor: {r: 0.9490196, g: 1, b: 0.13725491, a: 0}
+      _GlassColor: {r: 0.98173505, g: 1, b: 0, a: 0}
+      _MainColor: {r: 0.9490196, g: 1, b: 0.13725491, a: 0}
+      _MainTexTiling: {r: 1, g: 1, b: 0, a: 0}
+      _MaskTexColor: {r: 1, g: 0.9111887, b: 0, a: 0.5019608}
+      _MaskTexTiling: {r: 1, g: 1, b: 0, a: 0}
+      _NoiseTexSpeed: {r: 0, g: 0, b: 0, a: 0}
+      _NoiseTexTiling: {r: 1, g: 1, b: 0, a: 0}
+      _PlaneWaveColor: {r: 0, g: 0, b: 0, a: 0}
+      _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+      _ScanlineVertexOffset: {r: 0.5, g: 0, b: 0, a: 0}
+      _ScanlineVertexOffset1: {r: 0.5, g: 0, b: 0, a: 0}
+      _SimplifiedColor: {r: 1, g: 1, b: 1, a: 0}
+      _SkyboxColor: {r: 1, g: 0.80070484, b: 0.25098038, a: 0}
+      _SpaceColor: {r: 1, g: 1, b: 1, a: 0}
+      _SpaceFarAwayColor: {r: 0, g: 0, b: 0, a: 0}
+      _SpaceTilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _UpDownDirection: {r: 0, g: 1, b: 0, a: 0}
+      _vertex: {r: 0, g: 17.79, b: 0, a: 0}
+  m_BuildTextureStacks: []

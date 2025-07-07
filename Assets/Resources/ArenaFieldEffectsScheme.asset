@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec810db6a09862fb21313cf2cdc5d626, type: 3}
+  m_Name: ArenaFieldEffectsScheme
+  m_EditorClassIdentifier:
+  _fieldEffectsSchemes:
+    m_keys: 01000000e80300000000000002000000
+    m_values:
+    - BGMSoundInfo: {fileID: 11400000, guid: 1b66cd655c6beb44f8be1140a06f158f, type: 2}
+      SfxGameStart: {fileID: 11400000, guid: 8169695d8c395394280c7ece6f9f1fb9, type: 2}
+      SfxGameEnd: {fileID: 11400000, guid: 3f04ea836b0bb6344ac0822e5c3c71be, type: 2}
+      SfxCountdownEnd: {fileID: 11400000, guid: 828fbe805a3f0134b906031c31fb7ab6, type: 2}
+      SfxOvertimeEntered: {fileID: 11400000, guid: 36bedae94d2f39a4bbb05c322e1c3983, type: 2}
+      GoalSfxs:
+      - {fileID: 11400000, guid: fc913f43ac372a54f87e4e6468ddd9af, type: 2}
+      CountdownSfxs:
+      - {fileID: 11400000, guid: f36a20115ea8b29488748024d3ea081f, type: 2}
+    - BGMSoundInfo: {fileID: 11400000, guid: 6f2bd3acc4ebab84d921332d84989fa9, type: 2}
+      SfxGameStart: {fileID: 11400000, guid: 1dec8141ec3557742bb402cd486352bf, type: 2}
+      SfxGameEnd: {fileID: 11400000, guid: 0ade2d721c5acc84cb9f833e752848d9, type: 2}
+      SfxCountdownEnd: {fileID: 11400000, guid: 5aea5dc40f09e5949b4af8bbcca008d9, type: 2}
+      SfxOvertimeEntered: {fileID: 11400000, guid: c233a8c744844a44d8d78b8040dc30ff, type: 2}
+      GoalSfxs:
+      - {fileID: 11400000, guid: 2da09cc78e1574b49981b14ff04cbae3, type: 2}
+      CountdownSfxs:
+      - {fileID: 11400000, guid: fceaab035913a2f4d96c0c14f5123472, type: 2}
+      - {fileID: 11400000, guid: 8188ad89cf4c564459ff950c45949665, type: 2}
+      - {fileID: 11400000, guid: f0ce8cc3008c157419e48c80584eff8b, type: 2}
+      - {fileID: 11400000, guid: 04fb1873d1dadd84fbcda98df9d163d9, type: 2}
+      - {fileID: 11400000, guid: fcf52ce339fd0c34fa9326386fee5d49, type: 2}
+      - {fileID: 11400000, guid: dcb8d08f2c21ce54abe6fc8cfbee06fa, type: 2}
+      - {fileID: 11400000, guid: db01a318e54af4140a0e436f39acead6, type: 2}
+      - {fileID: 11400000, guid: 3171b90b4e2604449bc61da4974f0eef, type: 2}
+      - {fileID: 11400000, guid: 25a768ff391a2b84d8a155ec9f7be4ed, type: 2}
+      - {fileID: 11400000, guid: 1a95688fab9fabe4998569557992f055, type: 2}
+      - {fileID: 11400000, guid: d5a325260e653a640bbfb14fd552629c, type: 2}
+    - BGMSoundInfo: {fileID: 11400000, guid: 1b66cd655c6beb44f8be1140a06f158f, type: 2}
+      SfxGameStart: {fileID: 11400000, guid: b8670834229602e40bf22ddedb97bef2, type: 2}
+      SfxGameEnd: {fileID: 11400000, guid: 720bb4d4f7ab75b4280a359977bbc1a3, type: 2}
+      SfxCountdownEnd: {fileID: 11400000, guid: 14d6d57400889834fb798c31547c30bd, type: 2}
+      SfxOvertimeEntered: {fileID: 11400000, guid: 07a9948885556ab40b84089071ce49e6, type: 2}
+      GoalSfxs: []
+      CountdownSfxs:
+      - {fileID: 11400000, guid: d5b6d97c29c5ad644844fc8508e3a863, type: 2}
+    - BGMSoundInfo: {fileID: 11400000, guid: 1b66cd655c6beb44f8be1140a06f158f, type: 2}
+      SfxGameStart: {fileID: 11400000, guid: 8169695d8c395394280c7ece6f9f1fb9, type: 2}
+      SfxGameEnd: {fileID: 0}
+      SfxCountdownEnd: {fileID: 11400000, guid: 828fbe805a3f0134b906031c31fb7ab6, type: 2}
+      SfxOvertimeEntered: {fileID: 11400000, guid: 36bedae94d2f39a4bbb05c322e1c3983, type: 2}
+      GoalSfxs:
+      - {fileID: 11400000, guid: fc913f43ac372a54f87e4e6468ddd9af, type: 2}
+      CountdownSfxs:
+      - {fileID: 11400000, guid: f36a20115ea8b29488748024d3ea081f, type: 2}

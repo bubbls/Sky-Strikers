@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217c99fef22e994595118344b765b68e, type: 3}
+  m_Name: Suit_PrimeVestal
+  m_EditorClassIdentifier:
+  SuitArmVisual: {fileID: 114863652693327965, guid: 1b085a06d8e19c34fb7fedf3beb0d812, type: 2}
+  LeftHand: {fileID: 114423896312065084, guid: 14a1d4439c2e6834e9f6386a6ac01578, type: 2}
+  RightHand: {fileID: 114107924864000124, guid: cf8fe6bf9a314b84c8fdc819ac0025ee, type: 2}
+  TeamMaterials:
+  - Default: {fileID: 2100000, guid: 1c0b2a8a3bed83e47bba7dd37031b4a2, type: 2}
+    Emission: {fileID: 2100000, guid: 3ae2c5387b244434b9acaff9d0e0fc5b, type: 2}
+    Glass: {fileID: 2100000, guid: b70625336cc0f174197034d04e100f88, type: 2}
+    Spawning: {fileID: 0}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 11400000, guid: a74e03bc13587c24b91123e4de364258, type: 2}
+  - Default: {fileID: 2100000, guid: 1c0b2a8a3bed83e47bba7dd37031b4a2, type: 2}
+    Emission: {fileID: 2100000, guid: 3ae2c5387b244434b9acaff9d0e0fc5b, type: 2}
+    Glass: {fileID: 2100000, guid: b70625336cc0f174197034d04e100f88, type: 2}
+    Spawning: {fileID: 0}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 11400000, guid: a74e03bc13587c24b91123e4de364258, type: 2}
+  - Default: {fileID: 2100000, guid: b94f1ddb7fbb9b340a73b0e405c33208, type: 2}
+    Emission: {fileID: 2100000, guid: 5535cea23a22eff4bb2c564f515eda96, type: 2}
+    Glass: {fileID: 2100000, guid: b70625336cc0f174197034d04e100f88, type: 2}
+    Spawning: {fileID: 0}
+    Hologram: {fileID: 2100000, guid: e5e37c371115636479d2870ad7ff42a3, type: 2}
+    TeamFont: {fileID: 11400000, guid: a74e03bc13587c24b91123e4de364258, type: 2}
+  SfxChangeVisual: {fileID: 11400000, guid: d37f03ad9ea4cbf48b4266dca6a0042c, type: 2}
+  ChangeLocationTeleportFx:
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  TeleportToFieldFx:
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  BornTeleportFx:
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  - {fileID: 1451446551492872, guid: ffd08c937f82b804d8a53053b2c548e5, type: 2}
+  PlayerPortraits:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  SfxHitHard: {fileID: 11400000, guid: 880b7d0a1150fed44949a634f814b07c, type: 2}
+  SfxHitSoft: {fileID: 11400000, guid: 194159996ec38e2468e35c0284d26aa3, type: 2}
+  BallHitFx: {fileID: 114920226302831762, guid: c1f3211497952454ba165d12f7581fe7, type: 2}
+  MuzzleFlashFx:
+  - {fileID: 1998582609946035, guid: 0092b4686795132468ff3d1fb620190a, type: 2}
+  - {fileID: 1998582609946035, guid: 0092b4686795132468ff3d1fb620190a, type: 2}
+  - {fileID: 1047950820507415, guid: e7162078ce9bce54b9e53a8090ce597c, type: 2}
+  MissileVisual: {fileID: 114615696436125748, guid: 5e4a67dc552f7074683365572491b4c0, type: 2}
+  SfxFireBullet: {fileID: 11400000, guid: 4a06b85945dc8e74bb8e04988a4da353, type: 2}
+  MissileExplosionFx: {fileID: 114690195044591030, guid: d0a4158c089728e4dacc1d436ddad32b, type: 2}

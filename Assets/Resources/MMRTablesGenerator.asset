@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0729502eb26bb16241297595dfc9c9be, type: 3}
+  m_Name: MMRTablesGenerator
+  m_EditorClassIdentifier:
+  _scalingTable:
+    Ranges:
+    - MinMMR: 0
+      WinChange: 8
+      LoseChange: 0
+      DrawChange: 4
+    - MinMMR: 50
+      WinChange: 8
+      LoseChange: -1
+      DrawChange: 2
+    - MinMMR: 100
+      WinChange: 8
+      LoseChange: -2
+      DrawChange: 1
+    - MinMMR: 200
+      WinChange: 8
+      LoseChange: -3
+      DrawChange: 0
+    - MinMMR: 300
+      WinChange: 8
+      LoseChange: -4
+      DrawChange: 0
+    - MinMMR: 400
+      WinChange: 8
+      LoseChange: -5
+      DrawChange: 0
+    - MinMMR: 500
+      WinChange: 8
+      LoseChange: -6
+      DrawChange: 0
+    - MinMMR: 600
+      WinChange: 8
+      LoseChange: -7
+      DrawChange: 0
+    - MinMMR: 700
+      WinChange: 8
+      LoseChange: -8
+      DrawChange: 0
+    - MinMMR: 800
+      WinChange: 7
+      LoseChange: -9
+      DrawChange: 0
+    - MinMMR: 900
+      WinChange: 6
+      LoseChange: -10
+      DrawChange: 0
+    - MinMMR: 1000
+      WinChange: 5
+      LoseChange: -11
+      DrawChange: 0
+    - MinMMR: 1100
+      WinChange: 4
+      LoseChange: -12
+      DrawChange: 0
+    - MinMMR: 1200
+      WinChange: 3
+      LoseChange: -12
+      DrawChange: 0
+  _scalingTableJsonToImport:
+  _testMMR: 0
+  _testMatchResult: 0
+  _levelsTable:
+    Levels:
+    - Title: Rookie 1
+      MinMMR: 0
+      Color: {r: 0.45882356, g: 0.45882356, b: 0.45882356, a: 1}
+    - Title: Rookie 2
+      MinMMR: 10
+      Color: {r: 0.45882353, g: 0.45882353, b: 0.45882353, a: 1}
+    - Title: Rookie 3
+      MinMMR: 20
+      Color: {r: 0.45882353, g: 0.45882353, b: 0.45882353, a: 1}
+    - Title: Rookie 4
+      MinMMR: 30
+      Color: {r: 0.45882353, g: 0.45882353, b: 0.45882353, a: 1}
+    - Title: Contender 1
+      MinMMR: 40
+      Color: {r: 0.90196085, g: 0.90196085, b: 0.90196085, a: 1}
+    - Title: Contender 2
+      MinMMR: 60
+      Color: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    - Title: Contender 3
+      MinMMR: 80
+      Color: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    - Title: Contender 4
+      MinMMR: 100
+      Color: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    - Title: Contender 5
+      MinMMR: 120
+      Color: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    - Title: Veteran 1
+      MinMMR: 140
+      Color: {r: 1, g: 0.80392164, b: 0.16078432, a: 1}
+    - Title: Veteran 2
+      MinMMR: 160
+      Color: {r: 1, g: 0.8039216, b: 0.16078432, a: 1}
+    - Title: Veteran 3
+      MinMMR: 180
+      Color: {r: 1, g: 0.8039216, b: 0.16078432, a: 1}
+    - Title: Veteran 4
+      MinMMR: 220
+      Color: {r: 1, g: 0.8039216, b: 0.16078432, a: 1}
+    - Title: Veteran 5
+      MinMMR: 260
+      Color: {r: 1, g: 0.8039216, b: 0.16078432, a: 1}
+    - Title: Ace 1
+      MinMMR: 300
+      Color: {r: 0.078431375, g: 0.68235296, b: 0.36078432, a: 1}
+    - Title: Ace 2
+      MinMMR: 340
+      Color: {r: 0.078431375, g: 0.68235296, b: 0.36078432, a: 1}
+    - Title: Ace 3
+      MinMMR: 380
+      Color: {r: 0.078431375, g: 0.68235296, b: 0.36078432, a: 1}
+    - Title: Ace 4
+      MinMMR: 420
+      Color: {r: 0.078431375, g: 0.68235296, b: 0.36078432, a: 1}
+    - Title: Ace 5
+      MinMMR: 460
+      Color: {r: 0.078431375, g: 0.68235296, b: 0.36078432, a: 1}
+    - Title: Elite 1
+      MinMMR: 500
+      Color: {r: 0.28627452, g: 0.65882355, b: 1, a: 1}
+    - Title: Elite 2
+      MinMMR: 550
+      Color: {r: 0.28627452, g: 0.65882355, b: 1, a: 1}
+    - Title: Elite 3
+      MinMMR: 600
+      Color: {r: 0.28627452, g: 0.65882355, b: 1, a: 1}
+    - Title: Elite 4
+      MinMMR: 650
+      Color: {r: 0.28627452, g: 0.65882355, b: 1, a: 1}
+    - Title: Elite 5
+      MinMMR: 700
+      Color: {r: 0.28627452, g: 0.65882355, b: 1, a: 1}
+    - Title: Master 1
+      MinMMR: 750
+      Color: {r: 0.8000001, g: 0.37254903, b: 1, a: 1}
+    - Title: Master 2
+      MinMMR: 800
+      Color: {r: 0.8, g: 0.37254903, b: 1, a: 1}
+    - Title: Master 3
+      MinMMR: 850
+      Color: {r: 0.8, g: 0.37254903, b: 1, a: 1}
+    - Title: Master 4
+      MinMMR: 900
+      Color: {r: 0.8, g: 0.37254903, b: 1, a: 1}
+    - Title: Master 5
+      MinMMR: 950
+      Color: {r: 0.8, g: 0.37254903, b: 1, a: 1}
+    - Title: Champion 1
+      MinMMR: 1000
+      Color: {r: 0.9490197, g: 0.28235295, b: 0.13333334, a: 1}
+    - Title: Champion 2
+      MinMMR: 1050
+      Color: {r: 0.9490196, g: 0.28235295, b: 0.13333334, a: 1}
+    - Title: Champion 3
+      MinMMR: 1100
+      Color: {r: 0.9490196, g: 0.28235295, b: 0.13333334, a: 1}
+    - Title: Champion 4
+      MinMMR: 1150
+      Color: {r: 0.9490196, g: 0.28235295, b: 0.13333334, a: 1}
+    - Title: Champion 5
+      MinMMR: 1200
+      Color: {r: 0.9490196, g: 0.28235295, b: 0.13333334, a: 1}
+    - Title: Striker Legend
+      MinMMR: 1250
+      Color: {r: 0, g: 0, b: 0, a: 1}
+  _levelsTableJsonToImport:
+  _groupsInfoTable:
+    Groups:
+    - GroupName: Rookie
+      MinMMR: 0
+    - GroupName: Contender
+      MinMMR: 40
+    - GroupName: Veteran
+      MinMMR: 140
+    - GroupName: Ace
+      MinMMR: 300
+    - GroupName: Elite
+      MinMMR: 500
+    - GroupName: Master
+      MinMMR: 750
+    - GroupName: Champion
+      MinMMR: 1000
+    - GroupName: Striker Legend
+      MinMMR: 1250
+  _groupsInfoTableJsonToImport:
+  _playerMmrScores: b6030000ee02000000000000fa000000aa00000000000000
+  _currentMMR: 40
+  _newMMR: 30

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Bat_Champion_TeamTwo_Shop
+  m_Shader: {fileID: 4800000, guid: c7b2f0876b522cc4f9e7652c05b43f9c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _MATCAP_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _FontTexture:
+        m_Texture: {fileID: 2800000, guid: d8837438af5d6ed4ca0977c7ec58e4fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTexAEmassionMask:
+        m_Texture: {fileID: 2800000, guid: 90728cd3290b3bc4da20c16396530ee6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 71a8e219df9d3264288a4dcf969893be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MatCapTex:
+        m_Texture: {fileID: 2800000, guid: 549cbbd0ca05efd4b876b5406d23909d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _BacklightOffset: -0.75
+      _BacklightSoft: 1.13
+      _CameraMax: 10
+      _CameraMin: 0.5
+      _DotSize: 0.126
+      _DotSoft: 0.28
+      _DotSoftMax: 1
+      _DotSoftMin: 0.2
+      _EmissionSpeed: 0
+      _Float0: -3
+      _Float2: 141.7
+      _Float4: 0.25
+      _HiLightRange: 0
+      _HiLightSoft: 1
+      _MatCap: 1
+      _MatCapIntensity: 2.88
+      _MatCapMip: 1.6
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _UplightOffset: 0.18
+      _UplightSoft: 1.61
+    m_Colors:
+      _BacklightColor: {r: 0.6156863, g: 0.7568628, b: 0.91372555, a: 0}
+      _DotColor1: {r: 0.17254902, g: 0.17254902, b: 0.17254902, a: 0}
+      _DotColor2: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 0}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColorDown: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+      _FntColor: {r: 1, g: 0.1745283, b: 0.49075356, a: 0}
+      _FntSpeed: {r: 0, g: -0.2, b: 0, a: 0}
+      _FntTiling: {r: 1, g: 3, b: 0, a: 0}
+      _FontColor: {r: 0, g: 0, b: 0, a: 0}
+      _FontTilingSpeed: {r: 1, g: 2, b: 0, a: -0.2}
+      _MatCapColor: {r: 0.46226412, g: 0.46226412, b: 0.46226412, a: 0}
+      _MatCapColor2: {r: 1, g: 1, b: 1, a: 0}
+      _Tiling: {r: 90, g: 173, b: 0, a: 0}
+      _UplightColor: {r: 2, g: 2, b: 2, a: 1}
+      _Vector0: {r: 4, g: 4, b: 0, a: 0}
+  m_BuildTextureStacks: []

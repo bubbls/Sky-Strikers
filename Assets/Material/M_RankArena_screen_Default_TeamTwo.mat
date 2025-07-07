@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_RankArena_screen_Default_TeamTwo
+  m_Shader: {fileID: 4800000, guid: 45c6556d711ea1d4b975c53a1e096db9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _RADIALMODE_ON
+  - _SCORINGMODE_ON
+  - _SCREENON_ON
+  - _TEAMTWO_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Clock:
+        m_Texture: {fileID: 2800000, guid: 0dadd2e6ee982c74bb3d1bba249ee19a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CountdownTexture:
+        m_Texture: {fileID: 2800000, guid: f53018ca0bf44c648b5cb332ce759ab6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GoalBackground:
+        m_Texture: {fileID: 2800000, guid: bfe9f8288b2807b4a8f148651d68960f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GoalEffect:
+        m_Texture: {fileID: 2800000, guid: d0f133c647a24f540b2c89fb294a7573, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NumTexture:
+        m_Texture: {fileID: 2800000, guid: 15a83717c50c40a4aaf8609b812ed747, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ScoreTexture:
+        m_Texture: {fileID: 2800000, guid: 1e82f190c8fe1444b9adff98be0cb779, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.5
+      _BackgroundLineInt: 0.86
+      _BackgroundLineRange: 0.86
+      _BackgroundRange: 0.663
+      _BackgroundSoft: 0.528
+      _BakedColorOn: 0
+      _Beginning: 0.5
+      _Bevel: -0.54
+      _Bevel1: -0.4
+      _ClockBeginning: 0.5
+      _ClockCountDown: 0
+      _ClockOffset: 0.924
+      _ClockOutRange: -11.08
+      _ClockSoft: 0.083
+      _ClockTeamSwitch: 0
+      _ColumnsCount: 3
+      _CountDown: 0.625
+      _CountDownSpeed: -1
+      _Countdown: 0
+      _Countdown1: 0
+      _CountdownBGInt: 0.2
+      _CountdownOn: 0
+      _CountdownSpeed: 0
+      _Float11: 0
+      _Float2: 0.385
+      _Float3: 0.325
+      _GoalEffectSpeed: 0.4
+      _MaskColorInt: 0
+      _MaskSpeed: 0.4
+      _MiddleRange: 46.1
+      _MiddleRangeSoft: 4
+      _NoiseSpeed: 1
+      _Num: 0
+      _NumBevel: -0.54
+      _NumColumnsCount: 3
+      _NumOffsetVertically: -0.99
+      _NumRowCount: 4
+      _OffsetL: -0.12
+      _OffsetR: -0.69
+      _OffsetUp: -0.46
+      _OffsetVertically: -0.99
+      _QueueControl: 0
+      _QueueOffset: 1
+      _Range: 23.59
+      _ReceiveShadows: 1
+      _RowCount: 3
+      _Scale: -0.38
+      _ScoreTeamOne: 0
+      _ScoreTeamTwo: 0
+      _ScoringMode: 1
+      _ScreenOn: 1
+      _SequenceSpeed: 4
+      _SmoothstepOffset: 0.924
+      _SmoothstepSoft: 0.083
+      _StepM: 0.467
+      _StepMSoft: 0.2
+      _TeamOneScore: 1
+      _TeamRange: 1
+      _TeamRangeMax: 12.7
+      _TeamTwo: 1
+      _TeamTwoScore: 1
+      _xxx: -1.25
+      _yyy: -0.5
+    m_Colors:
+      _BackGroundColor1: {r: 0.14901924, g: 0.12156824, b: 0.12156824, a: 0}
+      _BackGroundColor2: {r: 0.24705842, g: 0.12548983, b: 0.13162637, a: 0}
+      _BackgroundTiling: {r: 100, g: 40, b: 0, a: 0}
+      _Center: {r: 1, g: 1.28, b: 0, a: 0}
+      _ClockCenter: {r: 0, g: -8.66, b: 0, a: 0}
+      _ClockDownColor: {r: 0.43396193, g: 0, b: 0.05786132, a: 0}
+      _ClockTilingOffset: {r: 311, g: 48.06, b: 0, a: -21.7}
+      _ClockUpColor: {r: 0.75471693, g: 0.19579896, b: 0.38506192, a: 0}
+      _Color: {r: 1, g: 0.5450979, b: 0, a: 1}
+      _Color0: {r: 0, g: 0.55249333, b: 0.7921569, a: 0}
+      _Color1: {r: 0.1839619, g: 0.9519977, b: 1, a: 0}
+      _CountdownOffset: {r: 191.69, g: 139.8, b: -31.5, a: -30.3}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _GoalBackgroundScaleOffset: {r: 193.67, g: 0.86, b: 0, a: -11.63}
+      _GoalColor: {r: 0.24999878, g: 0.3323516, b: 1, a: 0}
+      _GoalColor1: {r: 0, g: 0.8598919, b: 1, a: 0}
+      _GoalEffectTilingOffset: {r: 1, g: 0.5, b: 0, a: 0.19}
+      _MaskColor: {r: 0.2499994, g: 0.33235216, b: 1, a: 0}
+      _MaskColor1: {r: 0, g: 0.8598919, b: 1, a: 0}
+      _MaskTexTilingOffset: {r: 1, g: 0.5, b: 0, a: 0.19}
+      _NumColor: {r: 1, g: 0.12735817, b: 0.37456578, a: 0}
+      _NumScaleAndOffset: {r: 2.48, g: 2.35, b: -0.3, a: -1.23}
+      _Offest: {r: -0.04, g: 0.28, b: 0, a: 0}
+      _Scale: {r: 1, g: 1, b: 0, a: 0}
+      _ScaleAndOffset: {r: 2.48, g: 2.35, b: -0.3, a: -1.23}
+      _ScoreGoalTilingOffset: {r: 1.21, g: 0.67, b: -0.11, a: 0.07}
+      _ScoreTextureScaleOffset: {r: 4, g: 1.5, b: 0, a: 1.7}
+      _TeamOneColor: {r: 0.20714669, g: 0.3946515, b: 0.8962264, a: 1}
+      _TeamOneColor0: {r: 0, g: 0.55249333, b: 0.7921569, a: 0}
+      _TeamOneColor1: {r: 0.18396145, g: 0.9519977, b: 1, a: 0}
+      _TeamOneColorHigh: {r: 0.23137254, g: 0.79573196, b: 1, a: 1}
+      _TeamTwoColor: {r: 0.8962264, g: 0.21560161, b: 0.32236627, a: 1}
+      _TeamTwoColor0: {r: 1, g: 0, b: 0.10344749, a: 0}
+      _TeamTwoColor1: {r: 1, g: 0.4575472, b: 0.7011413, a: 0}
+      _TeamTwoColorHigh: {r: 1, g: 0.5235849, b: 0.6668426, a: 1}
+      _TensecondCountdownOffset: {r: 1.93, g: 1.37, b: -0.31, a: -0.33}
+      _TimeColor1: {r: 0.13817194, g: 0.20499805, b: 0.25471693, a: 0}
+      _TimeColor2: {r: 0.19624415, g: 0.57519156, b: 0.8490566, a: 0}
+      _TimeTilingOffset: {r: 311, g: 48.06, b: 0, a: -21.7}
+      _UVMaskRange: {r: 0.11, g: 0.55, b: -1.17, a: 0.15}
+      _Vector0: {r: 5, g: 1.19, b: -0.89, a: -0.38}
+      _ttt: {r: 0.25, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
